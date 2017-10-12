@@ -1,7 +1,7 @@
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 
 var reporter = new HtmlScreenshotReporter({
-  dest: '/PSPS_ProtractorFramework/PageObjectPattern/Reports',
+  dest: 'Reports',
   filename: 'my-report.html'
 });
 
@@ -29,6 +29,6 @@ exports.config = {
    afterLaunch: function(exitCode) {
       return new Promise(function(resolve){
         reporter.afterLaunch(resolve.bind(this, exitCode));
-      });
+    });
   }
 } 
