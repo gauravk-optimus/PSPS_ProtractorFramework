@@ -10,5 +10,8 @@ var keywords = function(){
 	
 		expect(object.getText()).toEqual(value);
 	};
+	this.clickButtonByXpath = function(object){
+		element(by.xpath(object)).click();
+	}
 };
 module.exports= new keywords();

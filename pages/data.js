@@ -3,7 +3,11 @@ var data = function(){
     this.username = 'SIMGROUP\\Optimus';
     var password;
     this.password = 'Newuser1';    	
+    var wrongPassword;
+    this.wrongPassword = 'Newuser2';    	
     var loggedInuser;
-    this.loggedInuser = 'OPTIMUS INFORMATION';
+    this.loggedInuser = 'OPTIMUS INFORMATION'; 
+    var loginError;
+    this.loginError = 'Please enter valid username and password!';     
 };
 module.exports = new data();

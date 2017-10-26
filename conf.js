@@ -6,8 +6,9 @@ var reporter = new HtmlScreenshotReporter({
 });
 
 exports.config = {
-  allScriptsTimeout: 15000,
+  //allScriptsTimeout: 15000,
   framework: 'jasmine',
+  restartBrowserAfterTests: true,
   seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: ['specs/login_spec.js'],
 
@@ -17,6 +18,8 @@ exports.config = {
   // Setup the report before any tests start
    beforeLaunch: function() {
       return new Promise(function(resolve){
+        console.log('resolve');
+      
         reporter.beforeLaunch(resolve);
       });
    },
@@ -24,11 +27,14 @@ exports.config = {
    // Assign the test reporter to each running instance
    onPrepare: function() {
       jasmine.getEnv().addReporter(reporter);
+      
    },
 
    // Close the report after all tests finish
    afterLaunch: function(exitCode) {
       return new Promise(function(resolve){
+         console.log('resolve');
+    
         reporter.afterLaunch(resolve.bind(this, exitCode));
     });
   }
