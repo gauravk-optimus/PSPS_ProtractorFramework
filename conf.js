@@ -12,9 +12,8 @@ exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: ['specs/login_spec.js'],
 
-  capabilities: {
-    browserName: 'chrome'
-  },
+ 
+
   // Setup the report before any tests start
    beforeLaunch: function() {
       return new Promise(function(resolve){

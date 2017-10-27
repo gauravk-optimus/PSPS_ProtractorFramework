@@ -4,6 +4,7 @@
   "description": "pspsweb",
   "main": "conf.js",
   "dependencies": {
+    "log4js-protractor-appender": "^1.1.2",
     "protractor-jasmine2-screenshot-reporter": "^0.4.1"
   },
   "devDependencies": {

@@ -1,0 +1,54 @@
+[2017-10-27 18:46:51.362] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:46:51.362] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:46:51.386] [INFO] logs - Navigating to URL
+[2017-10-27 18:46:51.386] [INFO] logs - Navigating to URL
+[2017-10-27 18:46:57.119] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:46:57.119] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:46:57.123] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:46:57.123] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:50:53.550] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:50:53.550] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:50:53.575] [INFO] logs - Navigating to URL
+[2017-10-27 18:50:53.575] [INFO] logs - Navigating to URL
+[2017-10-27 18:50:59.321] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:50:59.321] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:50:59.324] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:50:59.325] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-10-27 18:50:59.328] [INFO] logs - Entering text Newuser1
+[2017-10-27 18:50:59.329] [INFO] logs - Clicking on button
+[2017-10-27 18:50:59.332] [INFO] logs - Verifying text OPTIMUS INFORMATION
+[2017-10-27 18:50:59.324] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:50:59.325] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-10-27 18:50:59.328] [INFO] logs - Entering text Newuser1
+[2017-10-27 18:50:59.329] [INFO] logs - Clicking on button
+[2017-10-27 18:50:59.332] [INFO] logs - Verifying text OPTIMUS INFORMATION
+[2017-10-27 18:53:15.630] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:53:15.630] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:53:15.655] [INFO] logs - Navigating to URL
+[2017-10-27 18:53:15.655] [INFO] logs - Navigating to URL
+[2017-10-27 18:53:21.680] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:53:21.680] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:53:21.684] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:53:21.685] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-10-27 18:53:21.689] [INFO] logs - Entering text Newuser1
+[2017-10-27 18:53:21.692] [INFO] logs - Test Exception message: err.message is not a function
+[2017-10-27 18:53:21.684] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:53:21.685] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-10-27 18:53:21.689] [INFO] logs - Entering text Newuser1
+[2017-10-27 18:53:21.692] [INFO] logs - Test Exception message: err.message is not a function
+[2017-10-27 18:56:57.858] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:56:57.858] [INFO] logs - Executing suite: To test login
+[2017-10-27 18:56:57.882] [INFO] logs - Navigating to URL
+[2017-10-27 18:56:57.882] [INFO] logs - Navigating to URL
+[2017-10-27 18:57:03.912] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:57:03.912] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-10-27 18:57:03.916] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:57:03.918] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-10-27 18:57:03.921] [INFO] logs - Entering text Newuser1
+[2017-10-27 18:57:03.923] [INFO] logs - Clicking on button
+[2017-10-27 18:57:03.926] [INFO] logs - Verifying text OPTIMUS INFORMATION
+[2017-10-27 18:57:03.916] [INFO] logs - Executing Test: To verify login with valid user
+[2017-10-27 18:57:03.918] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-10-27 18:57:03.921] [INFO] logs - Entering text Newuser1
+[2017-10-27 18:57:03.923] [INFO] logs - Clicking on button
+[2017-10-27 18:57:03.926] [INFO] logs - Verifying text OPTIMUS INFORMATION
