@@ -1,40 +1,25 @@
-var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
-
-var reporter = new HtmlScreenshotReporter({
-  dest: 'Reports',
-  filename: 'my-report.html'
-});
+//invoking protractor reports
+var HtmlReporter = require('protractor-beautiful-reporter');
 
 exports.config = {
-  //allScriptsTimeout: 15000,
   framework: 'jasmine',
   restartBrowserAfterTests: true,
   seleniumAddress: 'http://localhost:4444/wd/hub',
+
+  //spec files for all the pages
   specs: ['specs/login_spec.js'],
 
- 
+  //browser
+  capabilities: { 'browserName': 'chrome' },
+  
+  onPrepare: function() {
 
-  // Setup the report before any tests start
-   beforeLaunch: function() {
-      return new Promise(function(resolve){
-        console.log('resolve');
-      
-        reporter.beforeLaunch(resolve);
-      });
-   },
-
-   // Assign the test reporter to each running instance
-   onPrepare: function() {
-      jasmine.getEnv().addReporter(reporter);
-      
-   },
-
-   // Close the report after all tests finish
-   afterLaunch: function(exitCode) {
-      return new Promise(function(resolve){
-         console.log('resolve');
-    
-        reporter.afterLaunch(resolve.bind(this, exitCode));
-    });
-  }
-} 
+    //Screenshot reporter and store screenshots 
+    jasmine.getEnv().addReporter(new HtmlReporter({
+       baseDirectory: 'Reports',
+       screenshotsSubfolder: 'images',
+       jsonsSubfolder: 'jsons',
+       docTitle: 'my reporter',
+       docName: 'index.html'
+    }).getJasmine2Reporter());
+   }}

@@ -1,26 +1,24 @@
 {
-  "name": "pspsweb",
+  "name": "name",
   "version": "1.0.0",
-  "description": "pspsweb",
+  "description": "as",
   "main": "conf.js",
   "dependencies": {
-    "log4js-protractor-appender": "^1.1.2",
-    "protractor-jasmine2-screenshot-reporter": "^0.4.1"
+    "log4js-protractor-appender": "^1.1.2"
   },
   "devDependencies": {
-    "protractor-jasmine2-screenshot-reporter": "^0.4.1"
+    "protractor-beautiful-reporter": "^0.5.0"
   },
   "scripts": {
-    "test": "test"
+    "test": "sad"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gauravk-optimus/PSPS_ProtractorFramework.git"
+    "url": "a"
   },
-  "author": "gaurav",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gauravk-optimus/PSPS_ProtractorFramework/issues"
-  },
-  "homepage": "https://github.com/gauravk-optimus/PSPS_ProtractorFramework#readme"
+  "keywords": [
+    "a"
+  ],
+  "author": "a",
+  "license": "ISC"
 }

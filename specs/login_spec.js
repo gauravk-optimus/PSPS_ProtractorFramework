@@ -35,7 +35,7 @@ describe('To test login', function() {
 			logger.info("Test Exception message: "+err.message);
 		}		
 	});
-/*
+
 		//Login page, invalid login
 	it('To verify login with invalid user', function(){	
 		
@@ -47,6 +47,7 @@ describe('To test login', function() {
 		var error = element(by.xpath(elements.loginErrorXpath));
 		keywords.verifyText(error, data.loginError);
 		keywords.clickButtonByXpath(elements.loginErrorOKBtnXpath);	
+		browser.executeScript('window.localStorage.clear();');
 		//var a = null;
 		//var b = a.get();		
 	
@@ -54,5 +55,5 @@ describe('To test login', function() {
 			console.log("Custom Exception ocuured "+err.message);
 			browser.executeScript(function() {console.log('This is from  browser console.')});	
 		}
-	});*/
+	});
 });
