@@ -1,0 +1,70 @@
+[2017-11-03 14:05:22.610] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 14:05:22.610] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 14:05:22.635] [INFO] logs - Navigating to URL
+[2017-11-03 14:05:22.635] [INFO] logs - Navigating to URL
+[2017-11-03 14:05:27.777] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 14:05:27.777] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 14:05:27.780] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 14:05:27.780] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 14:05:27.782] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 14:05:27.782] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 14:05:27.785] [INFO] logs - Entering text Newuser1
+[2017-11-03 14:05:27.785] [INFO] logs - Entering text Newuser1
+[2017-11-03 14:05:27.786] [INFO] logs - Clicking on button
+[2017-11-03 14:05:27.786] [INFO] logs - Clicking on button
+[2017-11-03 15:51:13.771] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:51:13.771] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:51:13.801] [INFO] logs - Navigating to URL
+[2017-11-03 15:51:13.801] [INFO] logs - Navigating to URL
+[2017-11-03 15:51:19.486] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:51:19.486] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:51:19.494] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:51:19.497] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:51:19.502] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:51:19.505] [INFO] logs - Clicking on button
+[2017-11-03 15:51:19.494] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:51:19.497] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:51:19.502] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:51:19.505] [INFO] logs - Clicking on button
+[2017-11-03 15:51:29.590] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:51:29.590] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:51:29.620] [INFO] logs - Navigating to URL
+[2017-11-03 15:51:29.620] [INFO] logs - Navigating to URL
+[2017-11-03 15:51:35.064] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:51:35.064] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:51:35.071] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:51:35.076] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:51:35.080] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:51:35.082] [INFO] logs - Clicking on button
+[2017-11-03 15:51:35.071] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:51:35.076] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:51:35.080] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:51:35.082] [INFO] logs - Clicking on button
+[2017-11-03 15:52:13.240] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:52:13.240] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:52:13.269] [INFO] logs - Navigating to URL
+[2017-11-03 15:52:13.269] [INFO] logs - Navigating to URL
+[2017-11-03 15:52:18.108] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:52:18.108] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:52:18.115] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:52:18.116] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:52:18.120] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:52:18.123] [INFO] logs - Clicking on button
+[2017-11-03 15:52:18.115] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:52:18.116] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:52:18.120] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:52:18.123] [INFO] logs - Clicking on button
+[2017-11-03 15:52:42.412] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:52:42.412] [INFO] logs - Executing suite: To test dashboard
+[2017-11-03 15:52:42.440] [INFO] logs - Navigating to URL
+[2017-11-03 15:52:42.440] [INFO] logs - Navigating to URL
+[2017-11-03 15:52:48.135] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:52:48.135] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-03 15:52:48.141] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:52:48.142] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:52:48.147] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:52:48.151] [INFO] logs - Clicking on button
+[2017-11-03 15:52:48.141] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-03 15:52:48.142] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-03 15:52:48.147] [INFO] logs - Entering text Newuser1
+[2017-11-03 15:52:48.151] [INFO] logs - Clicking on button

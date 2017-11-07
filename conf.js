@@ -5,9 +5,9 @@ exports.config = {
   framework: 'jasmine',
   restartBrowserAfterTests: true,
   seleniumAddress: 'http://localhost:4444/wd/hub',
-
+  //allScriptsTimeout: 15000,
   //spec files for all the pages
-  specs: ['specs/login_spec.js'],
+  specs: ['specs/dashboard_spec.js'],
 
   //browser
   capabilities: { 'browserName': 'chrome' },
