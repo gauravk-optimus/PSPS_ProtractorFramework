@@ -1,0 +1,416 @@
+[2017-11-16 15:56:24.275] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:56:24.275] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:56:24.307] [INFO] logs - Navigating to URL
+[2017-11-16 15:56:24.307] [INFO] logs - Navigating to URL
+[2017-11-16 15:56:30.486] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:56:30.486] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:56:30.489] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:56:30.491] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:56:30.489] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:56:30.497] [INFO] logs - Test Exception message: elements is not a function
+[2017-11-16 15:56:30.491] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:56:30.497] [INFO] logs - Test Exception message: elements is not a function
+[2017-11-16 15:56:49.362] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:56:49.362] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:56:49.389] [INFO] logs - Navigating to URL
+[2017-11-16 15:56:49.389] [INFO] logs - Navigating to URL
+[2017-11-16 15:56:55.280] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:56:55.280] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:56:55.283] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:56:55.284] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:56:55.283] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:56:55.284] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:57:17.004] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:57:17.004] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:57:17.027] [INFO] logs - Navigating to URL
+[2017-11-16 15:57:17.027] [INFO] logs - Navigating to URL
+[2017-11-16 15:57:23.219] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:57:23.219] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:57:23.222] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:57:23.224] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:57:23.222] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:57:23.224] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:57:50.736] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:57:50.736] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 15:57:50.760] [INFO] logs - Navigating to URL
+[2017-11-16 15:57:50.760] [INFO] logs - Navigating to URL
+[2017-11-16 15:57:56.433] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:57:56.433] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 15:57:56.437] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:57:56.438] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:57:56.437] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 15:57:56.438] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 15:57:56.702] [INFO] logs - different
+[2017-11-16 15:57:56.702] [INFO] logs - different
+[2017-11-16 16:04:14.190] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:04:14.190] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:04:14.217] [INFO] logs - Navigating to URL
+[2017-11-16 16:04:14.217] [INFO] logs - Navigating to URL
+[2017-11-16 16:04:20.743] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:04:20.743] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:04:20.747] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:04:20.748] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:04:20.752] [INFO] logs - Test Exception message: s is not defined
+[2017-11-16 16:04:20.747] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:04:20.748] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:04:20.752] [INFO] logs - Test Exception message: s is not defined
+[2017-11-16 16:04:56.437] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:04:56.437] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:04:56.460] [INFO] logs - Navigating to URL
+[2017-11-16 16:04:56.460] [INFO] logs - Navigating to URL
+[2017-11-16 16:05:03.536] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:05:03.536] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:05:03.540] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:05:03.541] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:05:03.546] [INFO] logs - different
+[2017-11-16 16:05:03.548] [INFO] logs - different
+[2017-11-16 16:05:03.550] [INFO] logs - different
+[2017-11-16 16:05:03.540] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:05:03.541] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:05:03.546] [INFO] logs - different
+[2017-11-16 16:05:03.548] [INFO] logs - different
+[2017-11-16 16:05:03.550] [INFO] logs - different
+[2017-11-16 16:05:40.603] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:05:40.603] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:05:40.634] [INFO] logs - Navigating to URL
+[2017-11-16 16:05:40.634] [INFO] logs - Navigating to URL
+[2017-11-16 16:05:47.559] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:05:47.559] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:05:47.564] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:05:47.565] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:05:47.569] [INFO] logs - Test Exception message: Cannot read property 'toString' of undefined
+[2017-11-16 16:05:47.564] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:05:47.565] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:05:47.569] [INFO] logs - Test Exception message: Cannot read property 'toString' of undefined
+[2017-11-16 16:07:28.187] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:07:28.187] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:07:28.209] [INFO] logs - Navigating to URL
+[2017-11-16 16:07:28.209] [INFO] logs - Navigating to URL
+[2017-11-16 16:07:34.979] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:07:34.979] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:07:34.984] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:07:34.985] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:07:34.990] [INFO] logs - different
+[2017-11-16 16:07:34.992] [INFO] logs - different
+[2017-11-16 16:07:34.994] [INFO] logs - different
+[2017-11-16 16:07:34.984] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:07:34.985] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:07:34.990] [INFO] logs - different
+[2017-11-16 16:07:34.992] [INFO] logs - different
+[2017-11-16 16:07:34.994] [INFO] logs - different
+[2017-11-16 16:08:20.931] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:08:20.931] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:08:20.959] [INFO] logs - Navigating to URL
+[2017-11-16 16:08:20.959] [INFO] logs - Navigating to URL
+[2017-11-16 16:08:27.569] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:08:27.569] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:08:27.572] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:08:27.573] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:08:27.579] [INFO] logs - Test Exception message: text is not defined
+[2017-11-16 16:08:27.572] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:08:27.573] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:08:27.579] [INFO] logs - Test Exception message: text is not defined
+[2017-11-16 16:09:59.372] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:09:59.372] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:09:59.400] [INFO] logs - Navigating to URL
+[2017-11-16 16:09:59.400] [INFO] logs - Navigating to URL
+[2017-11-16 16:10:05.304] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:10:05.304] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:10:05.309] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:10:05.310] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:10:05.316] [INFO] logs - Column Found in div1
+[2017-11-16 16:10:05.317] [INFO] logs - Column Found in div2
+[2017-11-16 16:10:05.319] [INFO] logs - Column Found in div3
+[2017-11-16 16:10:05.309] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:10:05.310] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:10:05.316] [INFO] logs - Column Found in div1
+[2017-11-16 16:10:05.317] [INFO] logs - Column Found in div2
+[2017-11-16 16:10:05.319] [INFO] logs - Column Found in div3
+[2017-11-16 16:11:10.449] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:11:10.449] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:11:10.474] [INFO] logs - Navigating to URL
+[2017-11-16 16:11:10.474] [INFO] logs - Navigating to URL
+[2017-11-16 16:11:17.528] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:11:17.528] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:11:17.532] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:11:17.533] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:11:17.537] [INFO] logs - different
+[2017-11-16 16:11:17.539] [INFO] logs - different
+[2017-11-16 16:11:17.541] [INFO] logs - different
+[2017-11-16 16:11:17.532] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:11:17.533] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:11:17.537] [INFO] logs - different
+[2017-11-16 16:11:17.539] [INFO] logs - different
+[2017-11-16 16:11:17.541] [INFO] logs - different
+[2017-11-16 16:11:40.302] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:11:40.302] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:11:40.325] [INFO] logs - Navigating to URL
+[2017-11-16 16:11:40.325] [INFO] logs - Navigating to URL
+[2017-11-16 16:11:46.745] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:11:46.745] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:11:46.750] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:11:46.751] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:11:46.758] [INFO] logs - Test Exception message: s is not defined
+[2017-11-16 16:11:46.750] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:11:46.751] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:11:46.758] [INFO] logs - Test Exception message: s is not defined
+[2017-11-16 16:12:06.088] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:12:06.088] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:12:06.135] [INFO] logs - Navigating to URL
+[2017-11-16 16:12:06.135] [INFO] logs - Navigating to URL
+[2017-11-16 16:12:12.341] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:12:12.341] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:12:12.347] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:12:12.349] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:12:12.354] [INFO] logs - different
+[2017-11-16 16:12:12.356] [INFO] logs - different
+[2017-11-16 16:12:12.357] [INFO] logs - different
+[2017-11-16 16:12:12.347] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:12:12.349] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:12:12.354] [INFO] logs - different
+[2017-11-16 16:12:12.356] [INFO] logs - different
+[2017-11-16 16:12:12.357] [INFO] logs - different
+[2017-11-16 16:12:34.254] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:12:34.254] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:12:34.278] [INFO] logs - Navigating to URL
+[2017-11-16 16:12:34.278] [INFO] logs - Navigating to URL
+[2017-11-16 16:12:40.540] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:12:40.540] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:12:40.544] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:12:40.544] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:12:40.549] [INFO] logs - Column Found in div1
+[2017-11-16 16:12:40.551] [INFO] logs - Column Found in div2
+[2017-11-16 16:12:40.553] [INFO] logs - Column Found in div3
+[2017-11-16 16:12:40.544] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:12:40.544] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:12:40.549] [INFO] logs - Column Found in div1
+[2017-11-16 16:12:40.551] [INFO] logs - Column Found in div2
+[2017-11-16 16:12:40.553] [INFO] logs - Column Found in div3
+[2017-11-16 16:49:04.480] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:49:04.480] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:49:04.514] [INFO] logs - Navigating to URL
+[2017-11-16 16:49:04.514] [INFO] logs - Navigating to URL
+[2017-11-16 16:49:10.210] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:49:10.210] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:49:10.215] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:49:10.216] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:49:10.221] [INFO] logs - Column Found in div1
+[2017-11-16 16:49:10.223] [INFO] logs - Column Found in div2
+[2017-11-16 16:49:10.226] [INFO] logs - Column Found in div3
+[2017-11-16 16:49:10.215] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:49:10.216] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:49:10.221] [INFO] logs - Column Found in div1
+[2017-11-16 16:49:10.223] [INFO] logs - Column Found in div2
+[2017-11-16 16:49:10.226] [INFO] logs - Column Found in div3
+[2017-11-16 16:49:28.852] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:49:28.852] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:49:28.876] [INFO] logs - Navigating to URL
+[2017-11-16 16:49:28.876] [INFO] logs - Navigating to URL
+[2017-11-16 16:49:34.773] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:49:34.773] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:49:34.777] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:49:34.778] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:49:34.785] [INFO] logs - different
+[2017-11-16 16:49:34.786] [INFO] logs - different
+[2017-11-16 16:49:34.790] [INFO] logs - different
+[2017-11-16 16:49:34.777] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:49:34.778] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:49:34.785] [INFO] logs - different
+[2017-11-16 16:49:34.786] [INFO] logs - different
+[2017-11-16 16:49:34.790] [INFO] logs - different
+[2017-11-16 16:50:41.363] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:50:41.363] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:50:41.389] [INFO] logs - Navigating to URL
+[2017-11-16 16:50:41.389] [INFO] logs - Navigating to URL
+[2017-11-16 16:50:46.999] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:50:46.999] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:50:47.002] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:50:47.004] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:50:47.008] [INFO] logs - different
+[2017-11-16 16:50:47.009] [INFO] logs - different
+[2017-11-16 16:50:47.011] [INFO] logs - different
+[2017-11-16 16:50:47.002] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:50:47.004] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:50:47.008] [INFO] logs - different
+[2017-11-16 16:50:47.009] [INFO] logs - different
+[2017-11-16 16:50:47.011] [INFO] logs - different
+[2017-11-16 16:51:00.725] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:51:00.725] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:51:00.750] [INFO] logs - Navigating to URL
+[2017-11-16 16:51:00.750] [INFO] logs - Navigating to URL
+[2017-11-16 16:51:09.746] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:51:09.746] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:51:09.751] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:51:09.752] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:51:09.757] [INFO] logs - different
+[2017-11-16 16:51:09.758] [INFO] logs - different
+[2017-11-16 16:51:09.760] [INFO] logs - different
+[2017-11-16 16:51:09.751] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:51:09.752] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:51:09.757] [INFO] logs - different
+[2017-11-16 16:51:09.758] [INFO] logs - different
+[2017-11-16 16:51:09.760] [INFO] logs - different
+[2017-11-16 16:52:09.257] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:52:09.257] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:52:09.282] [INFO] logs - Navigating to URL
+[2017-11-16 16:52:09.282] [INFO] logs - Navigating to URL
+[2017-11-16 16:52:18.663] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:52:18.663] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:52:18.666] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:52:18.667] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:52:18.672] [INFO] logs - different
+[2017-11-16 16:52:18.674] [INFO] logs - different
+[2017-11-16 16:52:18.676] [INFO] logs - different
+[2017-11-16 16:52:18.666] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:52:18.667] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:52:18.672] [INFO] logs - different
+[2017-11-16 16:52:18.674] [INFO] logs - different
+[2017-11-16 16:52:18.676] [INFO] logs - different
+[2017-11-16 16:53:11.367] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:53:11.367] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:53:11.392] [INFO] logs - Navigating to URL
+[2017-11-16 16:53:11.392] [INFO] logs - Navigating to URL
+[2017-11-16 16:53:16.429] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:53:16.429] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:53:16.434] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:53:16.436] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:53:16.444] [INFO] logs - Test Exception message: Cannot read property 'equals' of undefined
+[2017-11-16 16:53:16.434] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:53:16.436] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:53:16.444] [INFO] logs - Test Exception message: Cannot read property 'equals' of undefined
+[2017-11-16 16:56:09.584] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:56:09.584] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 16:56:09.609] [INFO] logs - Navigating to URL
+[2017-11-16 16:56:09.609] [INFO] logs - Navigating to URL
+[2017-11-16 16:56:14.703] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:56:14.703] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 16:56:14.706] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:56:14.707] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:56:14.712] [INFO] logs - Test Exception message: Cannot read property 'toString' of undefined
+[2017-11-16 16:56:14.706] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 16:56:14.707] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 16:56:14.712] [INFO] logs - Test Exception message: Cannot read property 'toString' of undefined
+[2017-11-16 17:36:49.615] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:36:49.615] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:36:49.638] [INFO] logs - Navigating to URL
+[2017-11-16 17:36:49.638] [INFO] logs - Navigating to URL
+[2017-11-16 17:36:54.598] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:36:54.598] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:36:54.602] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:36:54.603] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:36:54.602] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:36:54.603] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:37:47.750] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:37:47.750] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:37:47.773] [INFO] logs - Navigating to URL
+[2017-11-16 17:37:47.773] [INFO] logs - Navigating to URL
+[2017-11-16 17:37:52.515] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:37:52.515] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:37:52.520] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:37:52.521] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:37:52.520] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:37:52.521] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:38:34.410] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:38:34.410] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:38:34.435] [INFO] logs - Navigating to URL
+[2017-11-16 17:38:34.435] [INFO] logs - Navigating to URL
+[2017-11-16 17:38:39.329] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:38:39.329] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:38:39.333] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:38:39.334] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:38:39.333] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:38:39.334] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:39:13.596] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:39:13.596] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:39:13.621] [INFO] logs - Navigating to URL
+[2017-11-16 17:39:13.621] [INFO] logs - Navigating to URL
+[2017-11-16 17:39:18.607] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:39:18.607] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:39:18.611] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:39:18.612] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:39:18.611] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:39:18.612] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:40:02.378] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:40:02.378] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:40:02.401] [INFO] logs - Navigating to URL
+[2017-11-16 17:40:02.401] [INFO] logs - Navigating to URL
+[2017-11-16 17:40:07.516] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:40:07.516] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:40:07.520] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:40:07.521] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:40:07.525] [INFO] logs - Test Exception message: text is not defined
+[2017-11-16 17:40:07.520] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:40:07.521] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:40:07.525] [INFO] logs - Test Exception message: text is not defined
+[2017-11-16 17:40:53.033] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:40:53.033] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:40:53.063] [INFO] logs - Navigating to URL
+[2017-11-16 17:40:53.063] [INFO] logs - Navigating to URL
+[2017-11-16 17:40:57.903] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:40:57.903] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:40:57.906] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:40:57.906] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:40:57.907] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:40:57.907] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:40:57.912] [INFO] logs - Test Exception message: text is not defined
+[2017-11-16 17:40:57.912] [INFO] logs - Test Exception message: text is not defined
+[2017-11-16 17:41:36.951] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:41:36.951] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:41:36.975] [INFO] logs - Navigating to URL
+[2017-11-16 17:41:36.975] [INFO] logs - Navigating to URL
+[2017-11-16 17:41:41.622] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:41:41.622] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:41:41.627] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:41:41.627] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:41:41.627] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:41:41.627] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:41:41.898] [INFO] logs - Column Found in div4
+[2017-11-16 17:41:41.898] [INFO] logs - Column Found in div4
+[2017-11-16 17:41:41.933] [INFO] logs - Column Found in div4
+[2017-11-16 17:41:41.933] [INFO] logs - Column Found in div4
+[2017-11-16 17:41:41.964] [INFO] logs - Column Found in div4
+[2017-11-16 17:41:41.964] [INFO] logs - Column Found in div4
+[2017-11-16 17:42:21.851] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:42:21.851] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:42:21.879] [INFO] logs - Navigating to URL
+[2017-11-16 17:42:21.879] [INFO] logs - Navigating to URL
+[2017-11-16 17:42:26.718] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:42:26.718] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:42:26.722] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:42:26.722] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:42:26.722] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:42:26.722] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:42:26.726] [INFO] logs - different
+[2017-11-16 17:42:26.726] [INFO] logs - different
+[2017-11-16 17:42:26.727] [INFO] logs - different
+[2017-11-16 17:42:26.730] [INFO] logs - different
+[2017-11-16 17:42:26.727] [INFO] logs - different
+[2017-11-16 17:42:26.730] [INFO] logs - different
+[2017-11-16 17:42:26.997] [INFO] logs - Column Found in div4
+[2017-11-16 17:42:26.997] [INFO] logs - Column Found in div4
+[2017-11-16 17:42:27.030] [INFO] logs - Column Found in div4
+[2017-11-16 17:42:27.030] [INFO] logs - Column Found in div4
+[2017-11-16 17:42:27.061] [INFO] logs - Column Found in div4
+[2017-11-16 17:42:27.061] [INFO] logs - Column Found in div4
+[2017-11-16 17:44:07.772] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:44:07.772] [INFO] logs - Executing suite: To test dashboard
+[2017-11-16 17:44:07.798] [INFO] logs - Navigating to URL
+[2017-11-16 17:44:07.798] [INFO] logs - Navigating to URL
+[2017-11-16 17:44:12.725] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:44:12.725] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-16 17:44:12.730] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:44:12.731] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:44:12.753] [INFO] logs - different
+[2017-11-16 17:44:12.755] [INFO] logs - different
+[2017-11-16 17:44:12.757] [INFO] logs - different
+[2017-11-16 17:44:12.730] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-16 17:44:12.731] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-16 17:44:12.753] [INFO] logs - different
+[2017-11-16 17:44:12.755] [INFO] logs - different
+[2017-11-16 17:44:12.757] [INFO] logs - different
+[2017-11-16 17:44:13.027] [INFO] logs - Column Found in div4
+[2017-11-16 17:44:13.027] [INFO] logs - Column Found in div4
+[2017-11-16 17:44:13.059] [INFO] logs - Column Found in div4
+[2017-11-16 17:44:13.059] [INFO] logs - Column Found in div4
+[2017-11-16 17:44:13.093] [INFO] logs - Column Found in div4
+[2017-11-16 17:44:13.093] [INFO] logs - Column Found in div4

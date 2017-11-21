@@ -5,7 +5,7 @@ exports.config = {
   framework: 'jasmine',
   restartBrowserAfterTests: true,
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  //allScriptsTimeout: 15000,
+  //allScriptsTimeout: 40000,
   //spec files for all the pages
   specs: ['specs/dashboard_spec.js'],
 

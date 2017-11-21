@@ -1,0 +1,14 @@
+[2017-11-14 17:38:35.825] [INFO] logs - Executing suite: To test dashboard
+[2017-11-14 17:38:35.825] [INFO] logs - Executing suite: To test dashboard
+[2017-11-14 17:38:35.847] [INFO] logs - Navigating to URL
+[2017-11-14 17:38:35.847] [INFO] logs - Navigating to URL
+[2017-11-14 17:38:40.488] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-14 17:38:40.488] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-14 17:38:40.491] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-14 17:38:40.492] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-14 17:38:40.491] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-14 17:38:40.494] [INFO] logs - Entering text Newuser1
+[2017-11-14 17:38:40.492] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-14 17:38:40.495] [INFO] logs - Clicking on button
+[2017-11-14 17:38:40.494] [INFO] logs - Entering text Newuser1
+[2017-11-14 17:38:40.495] [INFO] logs - Clicking on button

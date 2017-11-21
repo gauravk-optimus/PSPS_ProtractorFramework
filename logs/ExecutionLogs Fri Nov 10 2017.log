@@ -1,0 +1,64 @@
+[2017-11-10 11:00:56.315] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 11:00:56.315] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 11:00:56.340] [INFO] logs - Navigating to URL
+[2017-11-10 11:00:56.340] [INFO] logs - Navigating to URL
+[2017-11-10 11:01:02.709] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 11:01:02.709] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 11:01:02.713] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 11:01:02.715] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 11:01:02.713] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 11:01:02.718] [INFO] logs - Entering text Newuser1
+[2017-11-10 11:01:02.715] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 11:01:02.718] [INFO] logs - Entering text Newuser1
+[2017-11-10 11:01:02.720] [INFO] logs - Clicking on button
+[2017-11-10 11:01:02.720] [INFO] logs - Clicking on button
+[2017-11-10 11:01:04.625] [INFO] logs - A
+[2017-11-10 11:01:04.625] [INFO] logs - A
+[2017-11-10 11:01:04.627] [INFO] logs - undefined
+[2017-11-10 11:01:04.631] [INFO] logs - B
+[2017-11-10 11:01:04.633] [INFO] logs - C
+[2017-11-10 11:01:04.627] [INFO] logs - undefined
+[2017-11-10 11:01:04.631] [INFO] logs - B
+[2017-11-10 11:01:04.633] [INFO] logs - C
+[2017-11-10 11:14:59.257] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 11:14:59.257] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 11:14:59.280] [INFO] logs - Navigating to URL
+[2017-11-10 11:14:59.280] [INFO] logs - Navigating to URL
+[2017-11-10 11:15:04.122] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 11:15:04.122] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 11:15:04.126] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 11:15:04.127] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 11:15:04.131] [INFO] logs - Entering text Newuser1
+[2017-11-10 11:15:04.134] [INFO] logs - Clicking on button
+[2017-11-10 11:15:04.126] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 11:15:04.127] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 11:15:04.131] [INFO] logs - Entering text Newuser1
+[2017-11-10 11:15:04.134] [INFO] logs - Clicking on button
+[2017-11-10 11:15:28.089] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 11:15:28.089] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 11:15:28.114] [INFO] logs - Navigating to URL
+[2017-11-10 11:15:28.114] [INFO] logs - Navigating to URL
+[2017-11-10 11:15:33.125] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 11:15:33.125] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 11:15:33.129] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 11:15:33.130] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 11:15:33.133] [INFO] logs - Entering text Newuser1
+[2017-11-10 11:15:33.135] [INFO] logs - Clicking on button
+[2017-11-10 11:15:33.129] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 11:15:33.130] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 11:15:33.133] [INFO] logs - Entering text Newuser1
+[2017-11-10 11:15:33.135] [INFO] logs - Clicking on button
+[2017-11-10 12:05:28.335] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 12:05:28.335] [INFO] logs - Executing suite: To test dashboard
+[2017-11-10 12:05:28.359] [INFO] logs - Navigating to URL
+[2017-11-10 12:05:28.359] [INFO] logs - Navigating to URL
+[2017-11-10 12:05:33.231] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 12:05:33.231] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-10 12:05:33.237] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 12:05:33.239] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 12:05:33.242] [INFO] logs - Entering text Newuser1
+[2017-11-10 12:05:33.237] [INFO] logs - Executing Test: To verify removing a new column
+[2017-11-10 12:05:33.244] [INFO] logs - Clicking on button
+[2017-11-10 12:05:33.239] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-10 12:05:33.242] [INFO] logs - Entering text Newuser1
+[2017-11-10 12:05:33.244] [INFO] logs - Clicking on button
