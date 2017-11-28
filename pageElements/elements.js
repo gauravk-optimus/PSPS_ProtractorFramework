@@ -26,13 +26,28 @@ var elements = function(){
     var columnSaveBtnXpath;
     this.columnSaveBtnXpath = '//*[@id="filter"]/form/div[10]/button';
     var columnFilterBtnXpath;
-    this.columnFilterBtnXpath = '';
+    this.columnFilterBtnXpath = '/html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img';
     var columnRemoveBtnXpath;
-    this.columnRemoveBtnXpath = '';
+    this.columnRemoveBtnXpath = '//*[@id="filter"]/form/div[10]/button[1]';
     var bookmarkedColumnXpath;
     this.bookmarkedColumnXpath = './/*[.="Bookmarked"]';
     var colStartXpath = new String('/html/body/app-root/div/app-dashboard/div/div/div[1]/div[');
     var colEndXpath = new String(']/div/div[1]/h5');
+    var newColumnXpath;
+    this.newColumnXpath = './/*[.="New Columns"]';
+    var dashboardFirstPicklist;
+    this.dashboardFirstPicklist = 'html/body/app-root/div/app-dashboard/div/div/div[1]/div[1]/div/div[3]/div[1]/div/div[1]/div[2]';
+    var bookmarkButtonXpath;
+    this.bookmarkButtonXpath = '/html/body/app-root/div/app-dashboard/div/div/div[1]/div[1]/div/div[3]/div[1]/div/div[2]/div[2]/span[1]';
+    var UnBookmarkButtonXpath;    
+    this.UnBookmarkButtonXpath = '/html/body/app-root/div/app-dashboard/div/div/div[1]/div[3]/div/div[3]/div/div/div[2]/div[2]/span[1]';
+    var orderToBeBookmarkedXpath;
+    this.orderToBeBookmarkedXpath = '/html/body/app-root/div/app-dashboard/div/div/div[1]/div[1]/div/div[3]/div[1]/div/div[1]/div[2]/h5';
+    var orderToBeUnBookmarkedXpath;
+    this.orderToBeUnBookmarkedXpath = '/html/body/app-root/div/app-dashboard/div/div/div[1]/div[3]/div/div[3]/div/div/div[1]/div[2]/h5';
     
+    //Picklist Index Page
+    var orderLinkXpath;
+    this.orderLinkXpath = '/html/body/app-root/div/app-header/div/div/div/breadcrumb/ul/li[1]/a';
 };
 module.exports = new elements();

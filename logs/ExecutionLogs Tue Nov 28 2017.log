@@ -1,0 +1,273 @@
+[2017-11-28 22:00:32.482] [INFO] logs - Executing suite: To test dashboard
+[2017-11-28 22:00:32.506] [INFO] logs - Navigating to URL
+[2017-11-28 22:00:37.805] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:00:37.810] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:00:37.810] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:00:37.813] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:00:37.814] [INFO] logs - Clicking on button
+[2017-11-28 22:00:37.816] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:00:37.818] [INFO] logs - Entering text New Columns
+[2017-11-28 22:00:37.819] [INFO] logs - Entering text New Columns
+[2017-11-28 22:00:37.821] [INFO] logs - Clicking on button
+[2017-11-28 22:00:37.822] [INFO] logs - Waiting for element
+[2017-11-28 22:00:37.823] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:00:37.825] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:00:37.810] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:00:37.810] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:00:37.813] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:00:37.814] [INFO] logs - Clicking on button
+[2017-11-28 22:00:37.816] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:00:37.818] [INFO] logs - Entering text New Columns
+[2017-11-28 22:00:37.819] [INFO] logs - Entering text New Columns
+[2017-11-28 22:00:37.821] [INFO] logs - Clicking on button
+[2017-11-28 22:00:37.822] [INFO] logs - Waiting for element
+[2017-11-28 22:00:37.823] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:00:37.825] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:00:42.591] [INFO] logs - clicked the button successfully
+[2017-11-28 22:00:43.899] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:00:44.066] [INFO] logs - clicked the button successfully
+[2017-11-28 22:00:44.321] [INFO] logs - clicked the button successfully
+[2017-11-28 22:00:45.080] [INFO] logs - Navigating to URL
+[2017-11-28 22:00:47.244] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:00:47.248] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:00:47.251] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:00:47.252] [INFO] logs - Clicking on button
+[2017-11-28 22:00:47.254] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:00:47.255] [INFO] logs - Waiting for element
+[2017-11-28 22:00:47.248] [INFO] logs - Executing Test: To verify open picklist from dashboard page
+[2017-11-28 22:00:47.248] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:00:47.251] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:00:47.252] [INFO] logs - Clicking on button
+[2017-11-28 22:00:47.254] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:00:47.255] [INFO] logs - Waiting for element
+[2017-11-28 22:00:51.433] [INFO] logs - clicked the button successfully
+[2017-11-28 22:00:52.202] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:00:52.765] [INFO] logs - Navigating to URL
+[2017-11-28 22:00:52.765] [INFO] logs - Navigating to URL
+[2017-11-28 22:00:54.320] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/dashboard
+[2017-11-28 22:00:54.323] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:00:54.324] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:00:54.323] [INFO] logs - Executing Test: To verify bookmark a column
+[2017-11-28 22:00:54.325] [INFO] logs - Clicking on button
+[2017-11-28 22:00:54.326] [INFO] logs - Clicking on button
+[2017-11-28 22:00:54.327] [INFO] logs - Clicked on bookmark button
+[2017-11-28 22:18:58.909] [INFO] logs - Executing suite: To test dashboard
+[2017-11-28 22:18:58.909] [INFO] logs - Executing suite: To test dashboard
+[2017-11-28 22:18:58.932] [INFO] logs - Navigating to URL
+[2017-11-28 22:18:58.932] [INFO] logs - Navigating to URL
+[2017-11-28 22:19:04.204] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:19:04.204] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:19:04.208] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:19:04.209] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:19:04.212] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:19:04.213] [INFO] logs - Clicking on button
+[2017-11-28 22:19:04.215] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:19:04.217] [INFO] logs - Entering text New Columns
+[2017-11-28 22:19:04.218] [INFO] logs - Entering text New Columns
+[2017-11-28 22:19:04.220] [INFO] logs - Clicking on button
+[2017-11-28 22:19:04.222] [INFO] logs - Waiting for element
+[2017-11-28 22:19:04.223] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:19:04.208] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:19:04.225] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:19:04.209] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:19:04.212] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:19:04.213] [INFO] logs - Clicking on button
+[2017-11-28 22:19:04.215] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:19:04.217] [INFO] logs - Entering text New Columns
+[2017-11-28 22:19:04.218] [INFO] logs - Entering text New Columns
+[2017-11-28 22:19:04.220] [INFO] logs - Clicking on button
+[2017-11-28 22:19:04.222] [INFO] logs - Waiting for element
+[2017-11-28 22:19:04.223] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:19:04.225] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:19:08.307] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:08.307] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:09.587] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:19:09.587] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:19:09.756] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:09.756] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:10.012] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:10.012] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:10.719] [INFO] logs - Navigating to URL
+[2017-11-28 22:19:10.719] [INFO] logs - Navigating to URL
+[2017-11-28 22:19:12.865] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:19:12.865] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:19:12.868] [INFO] logs - Executing Test: To verify open picklist from dashboard page
+[2017-11-28 22:19:12.869] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:19:12.873] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:19:12.875] [INFO] logs - Clicking on button
+[2017-11-28 22:19:12.878] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:19:12.879] [INFO] logs - Waiting for element
+[2017-11-28 22:19:12.868] [INFO] logs - Executing Test: To verify open picklist from dashboard page
+[2017-11-28 22:19:12.869] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:19:12.873] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:19:12.875] [INFO] logs - Clicking on button
+[2017-11-28 22:19:12.878] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:19:12.879] [INFO] logs - Waiting for element
+[2017-11-28 22:19:16.803] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:16.803] [INFO] logs - clicked the button successfully
+[2017-11-28 22:19:17.604] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:19:17.604] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:19:18.182] [INFO] logs - Navigating to URL
+[2017-11-28 22:19:18.182] [INFO] logs - Navigating to URL
+[2017-11-28 22:19:19.702] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/dashboard
+[2017-11-28 22:19:19.702] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/dashboard
+[2017-11-28 22:19:19.706] [INFO] logs - Executing Test: To verify bookmark a column
+[2017-11-28 22:19:19.707] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:19:19.708] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:19:19.709] [INFO] logs - Clicking on button
+[2017-11-28 22:19:19.706] [INFO] logs - Executing Test: To verify bookmark a column
+[2017-11-28 22:19:19.711] [INFO] logs - Clicking on button
+[2017-11-28 22:19:19.712] [INFO] logs - Clicked on bookmark button
+[2017-11-28 22:19:19.707] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:19:19.708] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:19:19.709] [INFO] logs - Clicking on button
+[2017-11-28 22:19:19.711] [INFO] logs - Clicking on button
+[2017-11-28 22:19:19.712] [INFO] logs - Clicked on bookmark button
+[2017-11-28 22:21:55.650] [INFO] logs - Executing suite: To test dashboard
+[2017-11-28 22:21:55.650] [INFO] logs - Executing suite: To test dashboard
+[2017-11-28 22:21:55.778] [INFO] logs - Navigating to URL
+[2017-11-28 22:21:55.778] [INFO] logs - Navigating to URL
+[2017-11-28 22:22:02.365] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:22:02.365] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:22:02.472] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:22:02.472] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:22:02.475] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:22:02.483] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:22:02.487] [INFO] logs - Clicking on button
+[2017-11-28 22:22:02.475] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:22:02.491] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:22:02.483] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:22:02.494] [INFO] logs - Entering text New Columns
+[2017-11-28 22:22:02.487] [INFO] logs - Clicking on button
+[2017-11-28 22:22:02.498] [INFO] logs - Entering text New Columns
+[2017-11-28 22:22:02.491] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:22:02.501] [INFO] logs - Clicking on button
+[2017-11-28 22:22:02.494] [INFO] logs - Entering text New Columns
+[2017-11-28 22:22:02.507] [INFO] logs - Waiting for element
+[2017-11-28 22:22:02.498] [INFO] logs - Entering text New Columns
+[2017-11-28 22:22:02.501] [INFO] logs - Clicking on button
+[2017-11-28 22:22:02.509] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:22:02.507] [INFO] logs - Waiting for element
+[2017-11-28 22:22:02.512] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:22:02.509] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:22:02.512] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:22:08.476] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:08.476] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:12.130] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:22:12.130] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:22:13.545] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:13.545] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:15.043] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:15.043] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:16.789] [INFO] logs - Navigating to URL
+[2017-11-28 22:22:16.789] [INFO] logs - Navigating to URL
+[2017-11-28 22:22:19.467] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:22:19.467] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:22:19.573] [INFO] logs - Executing Test: To verify open picklist from dashboard page
+[2017-11-28 22:22:19.573] [INFO] logs - Executing Test: To verify open picklist from dashboard page
+[2017-11-28 22:22:19.576] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:22:19.580] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:22:19.576] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:22:19.584] [INFO] logs - Clicking on button
+[2017-11-28 22:22:19.580] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:22:19.586] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:22:19.584] [INFO] logs - Clicking on button
+[2017-11-28 22:22:19.588] [INFO] logs - Waiting for element
+[2017-11-28 22:22:19.586] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:22:19.588] [INFO] logs - Waiting for element
+[2017-11-28 22:22:24.877] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:24.877] [INFO] logs - clicked the button successfully
+[2017-11-28 22:22:26.732] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:22:26.732] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:22:28.313] [INFO] logs - Navigating to URL
+[2017-11-28 22:22:28.313] [INFO] logs - Navigating to URL
+[2017-11-28 22:22:30.362] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/dashboard
+[2017-11-28 22:22:30.362] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/dashboard
+[2017-11-28 22:22:30.467] [INFO] logs - Executing Test: To verify bookmark a column
+[2017-11-28 22:22:30.467] [INFO] logs - Executing Test: To verify bookmark a column
+[2017-11-28 22:22:30.470] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:22:30.470] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:22:30.476] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:22:30.476] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:22:30.478] [INFO] logs - Clicking on button
+[2017-11-28 22:22:30.478] [INFO] logs - Clicking on button
+[2017-11-28 22:22:30.484] [INFO] logs - Clicking on button
+[2017-11-28 22:22:30.484] [INFO] logs - Clicking on button
+[2017-11-28 22:22:30.486] [INFO] logs - Clicked on bookmark button
+[2017-11-28 22:22:30.486] [INFO] logs - Clicked on bookmark button
+[2017-11-28 22:23:52.900] [INFO] logs - Executing suite: To test dashboard
+[2017-11-28 22:23:52.900] [INFO] logs - Executing suite: To test dashboard
+[2017-11-28 22:23:53.028] [INFO] logs - Navigating to URL
+[2017-11-28 22:23:53.028] [INFO] logs - Navigating to URL
+[2017-11-28 22:23:59.625] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:23:59.625] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:23:59.733] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:23:59.733] [INFO] logs - Executing Test: To verify creating a new column
+[2017-11-28 22:23:59.736] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:23:59.744] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:23:59.748] [INFO] logs - Clicking on button
+[2017-11-28 22:23:59.751] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:23:59.754] [INFO] logs - Entering text New Columns
+[2017-11-28 22:23:59.757] [INFO] logs - Entering text New Columns
+[2017-11-28 22:23:59.760] [INFO] logs - Clicking on button
+[2017-11-28 22:23:59.762] [INFO] logs - Waiting for element
+[2017-11-28 22:23:59.767] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:23:59.770] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:23:59.736] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:23:59.744] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:23:59.748] [INFO] logs - Clicking on button
+[2017-11-28 22:23:59.751] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:23:59.754] [INFO] logs - Entering text New Columns
+[2017-11-28 22:23:59.757] [INFO] logs - Entering text New Columns
+[2017-11-28 22:23:59.760] [INFO] logs - Clicking on button
+[2017-11-28 22:23:59.762] [INFO] logs - Waiting for element
+[2017-11-28 22:23:59.767] [INFO] logs - Waiting for /html/body/app-root/div/app-dashboard/div/div/div[1]/div[4]/div/div[1]/app-dashboard-filter/span/img
+[2017-11-28 22:23:59.770] [INFO] logs - Waiting for //*[@id="filter"]/form/div[10]/button[1]
+[2017-11-28 22:24:05.538] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:05.538] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:09.085] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:24:09.085] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:24:10.515] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:10.515] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:12.034] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:12.034] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:13.732] [INFO] logs - Navigating to URL
+[2017-11-28 22:24:13.732] [INFO] logs - Navigating to URL
+[2017-11-28 22:24:16.404] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:24:16.404] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:24:16.509] [INFO] logs - Executing Test: To verify open picklist from dashboard page
+[2017-11-28 22:24:16.509] [INFO] logs - Executing Test: To verify open picklist from dashboard page
+[2017-11-28 22:24:16.511] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:24:16.511] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:24:16.518] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:24:16.518] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:24:16.521] [INFO] logs - Clicking on button
+[2017-11-28 22:24:16.521] [INFO] logs - Clicking on button
+[2017-11-28 22:24:16.523] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:24:16.523] [INFO] logs - Waiting for .//*[.="Bookmarked"]
+[2017-11-28 22:24:16.525] [INFO] logs - Waiting for element
+[2017-11-28 22:24:16.525] [INFO] logs - Waiting for element
+[2017-11-28 22:24:21.611] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:21.611] [INFO] logs - clicked the button successfully
+[2017-11-28 22:24:23.446] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:24:23.446] [INFO] logs - Expected and Actual values matched
+[2017-11-28 22:24:25.214] [INFO] logs - Navigating to URL
+[2017-11-28 22:24:25.214] [INFO] logs - Navigating to URL
+[2017-11-28 22:24:27.201] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:24:27.201] [INFO] logs - Current url is http://172.16.0.46/PSPSUIBuild/login
+[2017-11-28 22:24:27.304] [INFO] logs - Executing Test: To verify bookmark a column
+[2017-11-28 22:24:27.304] [INFO] logs - Executing Test: To verify bookmark a column
+[2017-11-28 22:24:27.306] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:24:27.306] [INFO] logs - Entering text SIMGROUP\Optimus
+[2017-11-28 22:24:27.308] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:24:27.308] [INFO] logs - Entering text Newuser1
+[2017-11-28 22:24:27.309] [INFO] logs - Clicking on button
+[2017-11-28 22:24:27.309] [INFO] logs - Clicking on button
+[2017-11-28 22:24:27.312] [INFO] logs - Clicking on button
+[2017-11-28 22:24:27.312] [INFO] logs - Clicking on button
+[2017-11-28 22:24:27.313] [INFO] logs - Clicked on bookmark button
+[2017-11-28 22:24:27.313] [INFO] logs - Clicked on bookmark button
+[2017-11-28 22:24:39.018] [INFO] logs - Save the order name
+[2017-11-28 22:24:39.018] [INFO] logs - Save the order name
+[2017-11-28 22:24:40.571] [INFO] logs - Verified and Unbookmarked the item
+[2017-11-28 22:24:40.571] [INFO] logs - Verified and Unbookmarked the item

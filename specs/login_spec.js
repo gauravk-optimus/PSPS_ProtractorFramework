@@ -47,10 +47,7 @@ describe('To test login', function() {
 		var error = element(by.xpath(elements.loginErrorXpath));
 		keywords.verifyText(error, data.loginError);
 		keywords.clickButtonByXpath(elements.loginErrorOKBtnXpath);	
-		browser.executeScript('window.localStorage.clear();');
-		//var a = null;
-		//var b = a.get();		
-	
+		browser.executeScript('window.localStorage.clear();');	
 		}catch(err){
 			console.log("Custom Exception ocuured "+err.message);
 			browser.executeScript(function() {console.log('This is from  browser console.')});	

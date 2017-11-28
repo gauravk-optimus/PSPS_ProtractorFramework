@@ -2901,6 +2901,1134 @@ app.controller('ScreenshotReportController', function ($scope) {
         ],
         "screenShotFile": "images\\00180033-00c6-00ec-0044-009100d80072.png",
         "duration": 10983
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511248686976,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00a8006f-004e-0088-001f-009f00ee009d.png",
+        "duration": 10589
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(xpath, //*[@id=\"accordion\"]/div[1]/app-order-filter/span/a)",
+        "trace": "NoSuchElementError: No element found using locator: By(xpath, //*[@id=\"accordion\"]/div[1]/app-order-filter/span/a)\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as click] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as click] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:41:77)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\nFrom: Task: Run it(\"To verify bookmark any item\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:28:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511248792595,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00aa0042-00bd-00a4-00af-00f300d5003f.png",
+        "duration": 10401
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511249176027,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=hChojfbNfYveRqzg1cpxtaTGSnPyLkFH6%2BuPmg5VNI2owJ6yPy81i%2F%2Bas77Tm3mxhaMYvdoZaz99AcFz2qZSUIeBx7vO5lz%2Fxw%2BlTKuLeFX1C3Q9ztzGAEK%2BXEKRorM9&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32108105322975367304_1511249173092&_=1511249173094' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511249178966,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\002600f1-0013-00e5-001c-009500bc000d.png",
+        "duration": 7062
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511256137166,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=omvRdCxAaxBjWtuv%2BWq4l2EhyZII68q7aSiSqS2MnLKfG5Bzu%2F25uAK6jT7TI0FvrR4ohJViFxKU5n4rUU3WnXVFQlGwP%2BAkion9guxpr%2B6ZenHv%2FNTPgT015ulc3Ixk&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery321025146498718837584_1511256134529&_=1511256134531' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511256139949,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00bd00ca-00ac-0022-0046-004400840073.png",
+        "duration": 9836
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511256179830,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=%2FZYVhOPYCwsQo9XAxn4Ke%2BAjv7lYFyTIrFP2LSMrebzGnE9m2AwV1KKBjmAnSlIQqivXBPY8KJjqOEhTNrm33IR0RJIEILw36Rhflbv2pEpi%2B6O31MQCe8j784nNv6st&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32105967623412002057_1511256177083&_=1511256177085' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511256182875,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00a50045-009f-0027-0003-007b0098008a.png",
+        "duration": 10375
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Expected ElementFinder({ browser_: ProtractorBrowser({ controlFlow: Function, schedule: Function, setFileDetector: Function, getExecutor: Function, getSession: Function, getCapabilities: Function, quit: Function, actions: Function, touchActions: Function, executeScript: Function, executeAsyncScript: Function, call: Function, wait: Function, sleep: Function, getWindowHandle: Function, getAllWindowHandles: Function, getPageSource: Function, close: Function, getCurrentUrl: Function, getTitle: Function, findElementInternal_: Function, findElementsInternal_: Function, takeScreenshot: Function, manage: Function, switchTo: Function, driver: thenableWebDriverProxy({ flow_: ControlFlow::6309\n| TaskQueue::335\n| | (pending) Task::334<Run it(\"To verify bookmark any item\") in control flow>\n| | | TaskQueue::338\n| | | | (pending) Task::385<then>\n| | | | | (active) TaskQueue::6236\n| | | | | | Task::6238<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6240<then>\n| | | | | | Task::6242<then>\n| | | | | | Task::6244<then>\n| | | | | | Task::6246<then>\n| | | | | | Task::6248<then>\n| | | | | | Task::6250<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6252<then>\n| | | | | | Task::6254<then>\n| | | | | | Task::6256<then>\n| | | | | | Task::6258<then>\n| | | | | | Task::6260<then>\n| | | | | | Task::6262<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6264<then>\n| | | | | | Task::6266<then>\n| | | | | | Task::6268<then>\n| | | | | | Task::6270<then>\n| | | | | | Task::6272<then>\n| | | | | | Task::6274<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6276<then>\n| | | | | | Task::6278<then>\n| | | | | | Task::6280<then>\n| | | | | | Task::6282<then>\n| | | | | | Task::6284<then>\n| | | | | | Task::6286<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6288<then>\n| | | | | | Task::6290<then>\n| | | | | | Task::6292<then>\n| | | | | | Task::6294<then>\n| | | | | | Task::6296<then>\n| | | | | | Task::6298<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6300<then>\n| | | | | | Task::6302<then>\n| | | | | | Task::6304<then>\n| | | | | | Task::6306<then>\n| | | | | | Task::6308<then>\n| | Task::337<then>\n| TaskQueue::6103\n| | (pending) Task::6105<then>\n| | | TaskQueue::6234\n| | | | (pending) Task::2472<then>\n| | | | | TaskQueue::6235, session_: ManagedPromise::4 {[[PromiseStatus]]: \"fulfilled\"}, executor_: Executor({ w3c: false, customCommands_: Map( [ 'launchApp', Object({ method: 'POST', path: '/session/:sessionId/chromium/launch_app' }) ], [ 'getNetworkConnection', Object({ method: 'GET', path: '/session/:sessionId/network_connection' }) ], [ 'setNetworkConnection', Object({ method: 'POST', path: '/session/:sessionId/network_connection' }) ], [ 'toggleAirplaneMode', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_airplane_mode' }) ], [ 'toggleWiFi', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_wifi' }) ], [ 'toggleData', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_data' }) ], [ 'toggleLocationServices', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_location_services' }) ], [ 'getGeolocation', Object({ method: 'GET', path: '/session/:sessionId/location' }) ], [ 'setGeolocation', Object({ method: 'POST', path: '/session/:sessionId/location' }) ], [ 'getCurrentDeviceActivity', Object({ method: 'GET', path: '/session/:sessionId/appium/device/current_activity' }) ], [ 'startDeviceActivity', Object({ method: 'POST', path: '/session/:sessionId/appium/device/start_activity' }) ], [ 'getAppiumSettings', Object({ method: 'GET', path: '/session/:sessionId/appium/settings' }) ], [ 'setAppiumSettings', Object({ method: 'POST', path: '/session/:sessionId/appium/settings' }) ], [ 'getCurrentContext', Object({ method: 'GET', path: '/session/:sessionId/context' }) ], [ 'selectContext', Object({ method: 'POST', path: '/session/:sessionId/context' }) ], [ 'getScreenOrientation', Object({ method: 'GET', path: '/session/:sessionId/orientation' }) ], [ 'setScreenOrientation', Object({ method: 'POST', path: '/session/:sessionId/orientation' }) ], [ 'isDeviceLocked', Object({ method: 'POST', path: '/session/:sessionId/appium/device/is_locked' }) ], [ 'lockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/lock' }) ], [ 'unlockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/unlock' }) ], [ 'installApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/install_app' }) ], [ 'isAppInstalled', Object({ method: 'POST', path: '/session/:sessionId/appium/device/app_installed' }) ], [ 'removeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/remove_app' }) ], [ 'pullFileFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_file' }) ], [ 'pullFolderFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_folder' }) ], [ 'pushFileToDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/push_file' }) ], [ 'listContexts', Object({ method: 'GET', path: '/session/:sessionId/contexts' }) ], [ 'uploadFile', Object({ method: 'POST', path: '/session/:sessionId/file' }) ], [ 'switchToParentFrame', Object({ method: 'POST', path: '/session/:sessionId/frame/parent' }) ], [ 'fullscreen', Object({ method: 'POST', path: '/session/:sessionId/window/fullscreen' }) ], [ 'sendAppToBackground', Object({ method: 'POST', path: '/session/:sessionId/appium/app/background' }) ], [ 'closeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/close' }) ], [ 'getAppStrings', Object({ method: 'POST', path: '/session/:sessionId/appium/app/strings' }) ], [ 'launchSession', Object({ method: 'POST', path: '/session/:sessionId/appium/app/launch' }) ], [ 'resetApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/reset' }) ], [ 'hideSoftKeyboard', Object({ method: 'POST', path: '/session/:sessionId/appium/device/hide_keyboard' }) ], [ 'getDeviceTime', Object({ method: 'GET', path: '/session/:sessionId/appium/device/system_time' }) ], [ 'openDeviceNotifications', Object({ method: 'POST', path: '/session/:sessionId/appium/device/open_notifications' }) ], [ 'rotationGesture', Object({ method: 'POST', path: '/session/:sessionId/appium/device/rotate' }) ], [ 'shakeDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/shake' }) ] ), log_: Logger({ name_: 'webdriver.http.Executor', level_: null, parent_: Logger({ name_: 'webdriver.http', level_: null, parent_: Logger({ name_: 'webdriver', level_: null, parent_: Logger({ name_: '', level_: OFF, parent_: null, handlers_: null }), handlers_: null }), handlers_: null }), handlers_: null }) }), fileDetector_: null, onQuit_: undefined, cancel: Function, then: Function, catch: Function, getNetworkConnection: Function, setNetworkConnection: Function, toggleAirplaneMode: Function, toggleWiFi: Function, toggleData: Function, toggleLocationServices: Function, getGeolocation: Function, setGeolocation: Function, getCurrentDeviceActivity: Function, startDeviceActivity: Function, getAppiumSettings: Function, setAppiumSettings: Function, getCurrentContext: Function, selectContext: Function, getScreenOrientation: Function, setScreenOrientation: Function, isDeviceLocked: Function, lockDevice: Function, unlockDevice: Function, installApp: Function, isAppInstalled: Function, removeApp: Function, pullFileFromDevice: Function, pullFolderFromDevice: Function, pushFileToDevice: Function, listContexts: Function, uploadFile: Function, switchToParentFrame: Function, fullscreen: Function, sendAppToBackground: Function, closeApp: Function, getAppStrings: Function, launchSession: Function, resetApp: Function, hideSoftKeyboard: Function, getDeviceTime: Function, openDeviceNotifications: Function, rotationGesture: Function, shakeDevice: Function }), element: Function, $: Function, $: Function, baseUrl: '', getPageTimeout: 10000, params: Object({  }), resetUrl: 'data:text/html,<html></html>', debugHelper: DebugHelper({ browserUnderDebug_: <circular reference: Object> }), ready: ManagedPromise::19 {[[PromiseStatus]]: \"fulfilled\"}, trackOutstandingTimeouts_: true, mockModules_: [ Object({ name: 'protractorBaseModule_', script: Function, args: [ true ] }) ], ExpectedConditions: ProtractorExpectedConditions({ browser: <circular reference: Object> }), plugins_: Plugins({ setup: Function, onPrepare: Function, teardown: Function, postResults: Function, postTest: Function, onPageLoad: Function, onPageStable: Function, waitForPromise: Function, waitForCondition: Function, pluginObjs: [  ], assertions: Object({  }), resultsReported: false }), allScriptsTimeout: 11000, getProcessedConfig: Function, forkNewDriverInstance: Function, restart: Function, restartSync: Function, internalRootEl: '', internalIgnoreSynchronization: true }), then: null, parentElementArrayFinder: ElementArrayFinder({ browser_: ProtractorBrowser({ controlFlow: Function, schedule: Function, setFileDetector: Function, getExecutor: Function, getSession: Function, getCapabilities: Function, quit: Function, actions: Function, touchActions: Function, executeScript: Function, executeAsyncScript: Function, call: Function, wait: Function, sleep: Function, getWindowHandle: Function, getAllWindowHandles: Function, getPageSource: Function, close: Function, getCurrentUrl: Function, getTitle: Function, findElementInternal_: Function, findElementsInternal_: Function, takeScreenshot: Function, manage: Function, switchTo: Function, driver: thenableWebDriverProxy({ flow_: ControlFlow::6309\n| TaskQueue::335\n| | (pending) Task::334<Run it(\"To verify bookmark any item\") in control flow>\n| | | TaskQueue::338\n| | | | (pending) Task::385<then>\n| | | | | (active) TaskQueue::6236\n| | | | | | Task::6238<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6240<then>\n| | | | | | Task::6242<then>\n| | | | | | Task::6244<then>\n| | | | | | Task::6246<then>\n| | | | | | Task::6248<then>\n| | | | | | Task::6250<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6252<then>\n| | | | | | Task::6254<then>\n| | | | | | Task::6256<then>\n| | | | | | Task::6258<then>\n| | | | | | Task::6260<then>\n| | | | | | Task::6262<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6264<then>\n| | | | | | Task::6266<then>\n| | | | | | Task::6268<then>\n| | | | | | Task::6270<then>\n| | | | | | Task::6272<then>\n| | | | | | Task::6274<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6276<then>\n| | | | | | Task::6278<then>\n| | | | | | Task::6280<then>\n| | | | | | Task::6282<then>\n| | | | | | Task::6284<then>\n| | | | | | Task::6286<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6288<then>\n| | | | | | Task::6290<then>\n| | | | | | Task::6292<then>\n| | | | | | Task::6294<then>\n| | | | | | Task::6296<then>\n| | | | | | Task::6298<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6300<then>\n| | | | | | Task::6302<then>\n| | | | | | Task::6304<then>\n| | | | | | Task::6306<then>\n| | | | | | Task::6308<then>\n| | Task::337<then>\n| TaskQueue::6103\n| | (pending) Task::6105<then>\n| | | TaskQueue::6234\n| | | | (pending) Task::2472<then>\n| | | | | TaskQueue::6235, session_: ManagedPromise::4 {[[PromiseStatus]]: \"fulfilled\"}, executor_: Executor({ w3c: false, customCommands_: Map( [ 'launchApp', Object({ method: 'POST', path: '/session/:sessionId/chromium/launch_app' }) ], [ 'getNetworkConnection', Object({ method: 'GET', path: '/session/:sessionId/network_connection' }) ], [ 'setNetworkConnection', Object({ method: 'POST', path: '/session/:sessionId/network_connection' }) ], [ 'toggleAirplaneMode', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_airplane_mode' }) ], [ 'toggleWiFi', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_wifi' }) ], [ 'toggleData', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_data' }) ], [ 'toggleLocationServices', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_location_services' }) ], [ 'getGeolocation', Object({ method: 'GET', path: '/session/:sessionId/location' }) ], [ 'setGeolocation', Object({ method: 'POST', path: '/session/:sessionId/location' }) ], [ 'getCurrentDeviceActivity', Object({ method: 'GET', path: '/session/:sessionId/appium/device/current_activity' }) ], [ 'startDeviceActivity', Object({ method: 'POST', path: '/session/:sessionId/appium/device/start_activity' }) ], [ 'getAppiumSettings', Object({ method: 'GET', path: '/session/:sessionId/appium/settings' }) ], [ 'setAppiumSettings', Object({ method: 'POST', path: '/session/:sessionId/appium/settings' }) ], [ 'getCurrentContext', Object({ method: 'GET', path: '/session/:sessionId/context' }) ], [ 'selectContext', Object({ method: 'POST', path: '/session/:sessionId/context' }) ], [ 'getScreenOrientation', Object({ method: 'GET', path: '/session/:sessionId/orientation' }) ], [ 'setScreenOrientation', Object({ method: 'POST', path: '/session/:sessionId/orientation' }) ], [ 'isDeviceLocked', Object({ method: 'POST', path: '/session/:sessionId/appium/device/is_locked' }) ], [ 'lockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/lock' }) ], [ 'unlockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/unlock' }) ], [ 'installApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/install_app' }) ], [ 'isAppInstalled', Object({ method: 'POST', path: '/session/:sessionId/appium/device/app_installed' }) ], [ 'removeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/remove_app' }) ], [ 'pullFileFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_file' }) ], [ 'pullFolderFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_folder' }) ], [ 'pushFileToDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/push_file' }) ], [ 'listContexts', Object({ method: 'GET', path: '/session/:sessionId/contexts' }) ], [ 'uploadFile', Object({ method: 'POST', path: '/session/:sessionId/file' }) ], [ 'switchToParentFrame', Object({ method: 'POST', path: '/session/:sessionId/frame/parent' }) ], [ 'fullscreen', Object({ method: 'POST', path: '/session/:sessionId/window/fullscreen' }) ], [ 'sendAppToBackground', Object({ method: 'POST', path: '/session/:sessionId/appium/app/background' }) ], [ 'closeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/close' }) ], [ 'getAppStrings', Object({ method: 'POST', path: '/session/:sessionId/appium/app/strings' }) ], [ 'launchSession', Object({ method: 'POST', path: '/session/:sessionId/appium/app/launch' }) ], [ 'resetApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/reset' }) ], [ 'hideSoftKeyboard', Object({ method: 'POST', path: '/session/:sessionId/appium/device/hide_keyboard' }) ], [ 'getDeviceTime', Object({ method: 'GET', path: '/session/:sessionId/appium/device/system_time' }) ], [ 'openDeviceNotifications', Object({ method: 'POST', path: '/session/:sessionId/appium/device/open_notifications' }) ], [ 'rotationGesture', Object({ method: 'POST', path: '/session/:sessionId/appium/device/rotate' }) ], [ 'shakeDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/shake' }) ] ), log_: Logger({ name_: 'webdriver.http.Executor', level_: null, parent_: Logger({ name_: 'webdriver.http', level_: null, parent_: Logger({ name_: 'webdriver', level_: null, parent_: Logger({ name_: '', level_: OFF, parent_: null, handlers_: null }), handlers_: null }), handlers_: null }), handlers_: null }) }), fileDetector_: null, onQuit_: undefined, cancel: Function, then: Function, catch: Function, getNetworkConnection: Function, setNetworkConnection: Function, toggleAirplaneMode: Function, toggleWiFi: Function, toggleData: Function, toggleLocationServices: Function, getGeolocation: Function, setGeolocation: Function, getCurrentDeviceActivity: Function, startDeviceActivity: Function, getAppiumSettings: Function, setAppiumSettings: Function, getCurrentContext: Function, selectContext: Function, getScreenOrientation: Function, setScreenOrientation: Function, isDeviceLocked: Function, lockDevice: Function, unlockDevice: Function, installApp: Function, isAppInstalled: Function, removeApp: Function, pullFileFromDevice: Function, pullFolderFromDevice: Function, pushFileToDevice: Function, listContexts: Function, uploadFile: Function, switchToParentFrame: Function, fullscreen: Function, sendAppToBackground: Function, closeApp: Function, getAppStrings: Function, launchSession: Function, resetApp: Function, hideSoftKeyboard: Function, getDeviceTime: Function, openDeviceNotifications: Function, rotationGesture: Function, shakeDevice: Function }), element: Function, $: Function, $: Function, baseUrl: '', getPageTimeout: 10000, params: Object({  }), resetUrl: 'data:text/html,<html></html>', debugHelper: DebugHelper({ browserUnderDebug_: <circular reference: Object> }), ready: ManagedPromise::19 {[[PromiseStatus]]: \"fulfilled\"}, trackOutstandingTimeouts_: true, mockModules_: [ Object({ name: 'protractorBaseModule_', script: Function, args: [ true ] }) ], ExpectedConditions: ProtractorExpectedConditions({ browser: <circular reference: Object> }), plugins_: Plugins({ setup: Function, onPrepare: Function, teardown: Function, postResults: Function, postTest: Function, onPageLoad: Function, onPageStable: Function, waitForPromise: Function, waitForCondition: Function, pluginObjs: [  ], assertions: Object({  }), resultsReported: false }), allScriptsTimeout: 11000, getProcessedConfig: Function, forkNewDriverInstance: Function, restart: Function, restartSync: Function, internalRootEl: '', internalIgnoreSynchronization: true }), getWebElements: Function, locator_: By(xpath, //*[@id=\"0\"]/div/table/tbody/tr/td[2]), actionResults_: null, click: Function, sendKeys: Function, getTagName: Function, getCssValue: Function, getAttribute: Function, getText: Function, getSize: Function, getLocation: Function, isEnabled: Function, isSelected: Function, submit: Function, clear: Function, isDisplayed: Function, getId: Function, takeScreenshot: Function }), elementArrayFinder_: ElementArrayFinder({ browser_: ProtractorBrowser({ controlFlow: Function, schedule: Function, setFileDetector: Function, getExecutor: Function, getSession: Function, getCapabilities: Function, quit: Function, actions: Function, touchActions: Function, executeScript: Function, executeAsyncScript: Function, call: Function, wait: Function, sleep: Function, getWindowHandle: Function, getAllWindowHandles: Function, getPageSource: Function, close: Function, getCurrentUrl: Function, getTitle: Function, findElementInternal_: Function, findElementsInternal_: Function, takeScreenshot: Function, manage: Function, switchTo: Function, driver: thenableWebDriverProxy({ flow_: ControlFlow::6309\n| TaskQueue::335\n| | (pending) Task::334<Run it(\"To verify bookmark any item\") in control flow>\n| | | TaskQueue::338\n| | | | (pending) Task::385<then>\n| | | | | (active) TaskQueue::6236\n| | | | | | Task::6238<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6240<then>\n| | | | | | Task::6242<then>\n| | | | | | Task::6244<then>\n| | | | | | Task::6246<then>\n| | | | | | Task::6248<then>\n| | | | | | Task::6250<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6252<then>\n| | | | | | Task::6254<then>\n| | | | | | Task::6256<then>\n| | | | | | Task::6258<then>\n| | | | | | Task::6260<then>\n| | | | | | Task::6262<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6264<then>\n| | | | | | Task::6266<then>\n| | | | | | Task::6268<then>\n| | | | | | Task::6270<then>\n| | | | | | Task::6272<then>\n| | | | | | Task::6274<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6276<then>\n| | | | | | Task::6278<then>\n| | | | | | Task::6280<then>\n| | | | | | Task::6282<then>\n| | | | | | Task::6284<then>\n| | | | | | Task::6286<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6288<then>\n| | | | | | Task::6290<then>\n| | | | | | Task::6292<then>\n| | | | | | Task::6294<then>\n| | | | | | Task::6296<then>\n| | | | | | Task::6298<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::6300<then>\n| | | | | | Task::6302<then>\n| | | | | | Task::6304<then>\n| | | | | | Task::6306<then>\n| | | | | | Task::6308<then>\n| | Task::337<then>\n| TaskQueue::6103\n| | (pending) Task::6105<then>\n| | | TaskQueue::6234\n| | | | (pending) Task::2472<then>\n| | | | | TaskQueue::6235, session_: ManagedPromise::4 {[[PromiseStatus]]: \"fulfilled\"}, executor_: Executor({ w3c: false, customCommands_: Map( [ 'launchApp', Object({ method: 'POST', path: '/session/:sessionId/chromium/launch_app' }) ], [ 'getNetworkConnection', Object({ method: 'GET', path: '/session/:sessionId/network_connection' }) ], [ 'setNetworkConnection', Object({ method: 'POST', path: '/session/:sessionId/network_connection' }) ], [ 'toggleAirplaneMode', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_airplane_mode' }) ], [ 'toggleWiFi', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_wifi' }) ], [ 'toggleData', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_data' }) ], [ 'toggleLocationServices', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_location_services' }) ], [ 'getGeolocation', Object({ method: 'GET', path: '/session/:sessionId/location' }) ], [ 'setGeolocation', Object({ method: 'POST', path: '/session/:sessionId/location' }) ], [ 'getCurrentDeviceActivity', Object({ method: 'GET', path: '/session/:sessionId/appium/device/current_activity' }) ], [ 'startDeviceActivity', Object({ method: 'POST', path: '/session/:sessionId/appium/device/start_activity' }) ], [ 'getAppiumSettings', Object({ method: 'GET', path: '/session/:sessionId/appium/settings' }) ], [ 'setAppiumSettings', Object({ method: 'POST', path: '/session/:sessionId/appium/settings' }) ], [ 'getCurrentContext', Object({ method: 'GET', path: '/session/:sessionId/context' }) ], [ 'selectContext', Object({ method: 'POST', path: '/session/:sessionId/context' }) ], [ 'getScreenOrientation', Object({ method: 'GET', path: '/session/:sessionId/orientation' }) ], [ 'setScreenOrientation', Object({ method: 'POST', path: '/session/:sessionId/orientation' }) ], [ 'isDeviceLocked', Object({ method: 'POST', path: '/session/:sessionId/appium/device/is_locked' }) ], [ 'lockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/lock' }) ], [ 'unlockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/unlock' }) ], [ 'installApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/install_app' }) ], [ 'isAppInstalled', Object({ method: 'POST', path: '/session/:sessionId/appium/device/app_installed' }) ], [ 'removeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/remove_app' }) ], [ 'pullFileFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_file' }) ], [ 'pullFolderFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_folder' }) ], [ 'pushFileToDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/push_file' }) ], [ 'listContexts', Object({ method: 'GET', path: '/session/:sessionId/contexts' }) ], [ 'uploadFile', Object({ method: 'POST', path: '/session/:sessionId/file' }) ], [ 'switchToParentFrame', Object({ method: 'POST', path: '/session/:sessionId/frame/parent' }) ], [ 'fullscreen', Object({ method: 'POST', path: '/session/:sessionId/window/fullscreen' }) ], [ 'sendAppToBackground', Object({ method: 'POST', path: '/session/:sessionId/appium/app/background' }) ], [ 'closeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/close' }) ], [ 'getAppStrings', Object({ method: 'POST', path: '/session/:sessionId/appium/app/strings' }) ], [ 'launchSession', Object({ method: 'POST', path: '/session/:sessionId/appium/app/launch' }) ], [ 'resetApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/reset' }) ], [ 'hideSoftKeyboard', Object({ method: 'POST', path: '/session/:sessionId/appium/device/hide_keyboard' }) ], [ 'getDeviceTime', Object({ method: 'GET', path: '/session/:sessionId/appium/device/system_time' }) ], [ 'openDeviceNotifications', Object({ method: 'POST', path: '/session/:sessionId/appium/device/open_notifications' }) ], [ 'rotationGesture', Object({ method: 'POST', path: '/session/:sessionId/appium/device/rotate' }) ], [ 'shakeDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/shake' }) ] ), log_: Logger({ name_: 'webdriver.http.Executor', level_: null, parent_: Logger({ name_: 'webdriver.http', level_: null, parent_: Logger({ name_: 'webdriver', level_: null, parent_: Logger({ name_: '', level_: OFF, parent_: null, handlers_: null }), handlers_: null }), handlers_: null }), handlers_: null }) }), fileDetector_: null, onQuit_: undefined, cancel: Function, then: Function, catch: Function, getNetworkConnection: Function, setNetworkConnection: Function, toggleAirplaneMode: Function, toggleWiFi: Function, toggleData: Function, toggleLocationServices: Function, getGeolocation: Function, setGeolocation: Function, getCurrentDeviceActivity: Function, startDeviceActivity: Function, getAppiumSettings: Function, setAppiumSettings: Function, getCurrentContext: Function, selectContext: Function, getScreenOrientation: Function, setScreenOrientation: Function, isDeviceLocked: Function, lockDevice: Function, unlockDevice: Function, installApp: Function, isAppInstalled: Function, removeApp: Function, pullFileFromDevice: Function, pullFolderFromDevice: Function, pushFileToDevice: Function, listContexts: Function, uploadFile: Function, switchToParentFrame: Function, fullscreen: Function, sendAppToBackground: Function, closeApp: Function, getAppStrings: Function, launchSession: Function, resetApp: Function, hideSoftKeyboard: Function, getDeviceTime: Function, openDeviceNotifications: Function, rotationGesture: Function, shakeDevice: Function }), element: Function, $: Function, $: Function, baseUrl: '', getPageTimeout: 10000, params: Object({  }), resetUrl: 'data:text/html,<html></html>', debugHelper: DebugHelper({ browserUnderDebug_: <circular reference: Object> }), ready: ManagedPromise::19 {[[PromiseStatus]]: \"fulfilled\"}, trackOutstandingTimeouts_: true, mockModules_: [ Object({ name: 'protractorBaseModule_', script: Function, args: [ true ] }) ], ExpectedConditions: ProtractorExpectedConditions({ browser: <circular reference: Object> }), plugins_: Plugins({ setup: Function, onPrepare: Function, teardown: Function, postResults: Function, postTest: Function, onPageLoad: Function, onPageStable: Function, waitForPromise: Function, waitForCondition: Function, pluginObjs: [  ], assertions: Object({  }), resultsReported: false }), allScriptsTimeout: 11000, getProcessedConfig: Function, forkNewDriverInstance: Function, restart: Function, restartSync: Function, internalRootEl: '', internalIgnoreSynchronization: true }), getWebElements: Function, locator_: By(xpath, //*[@id=\"0\"]/div/table/tbody/tr/td[2]), actionResults_: null, click: Function, sendKeys: Function, getTagName: Function, getCssValue: Function, getAttribute: Function, getText: Function, getSize: Function, getLocation: Function, isEnabled: Function, isSelected: Function, submit: Function, clear: Function, isDisplayed: Function, getId: Function, takeScreenshot: Function }), click: Function, sendKeys: Function, getTagName: Function, getCssValue: Function, getAttribute: Function, getText: Function, getSize: Function, getLocation: Function, isEnabled: Function, isSelected: Function, submit: Function, clear: Function, isDisplayed: Function, getId: Function, takeScreenshot: Function }) to equal 'Green harvest'.",
+        "trace": "Error: Failed expectation\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:52:72\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511256960185,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=t5pZgsogFKMux27%2BxO%2FC162rbfC6FWd1McKYcifpPsOxqNXYUXynuNKYA0gY5YKr7dghJkGAGbwHEXNgvso2G%2Fk8euzARGDop5jyuXQByaussSIuNmDullmHx26LP8Il&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery321045683184393138543_1511256957621&_=1511256957623' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511256963064,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\003f00cd-0015-00d3-0080-0017008d006a.png",
+        "duration": 10931
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Expected ElementFinder({ browser_: ProtractorBrowser({ controlFlow: Function, schedule: Function, setFileDetector: Function, getExecutor: Function, getSession: Function, getCapabilities: Function, quit: Function, actions: Function, touchActions: Function, executeScript: Function, executeAsyncScript: Function, call: Function, wait: Function, sleep: Function, getWindowHandle: Function, getAllWindowHandles: Function, getPageSource: Function, close: Function, getCurrentUrl: Function, getTitle: Function, findElementInternal_: Function, findElementsInternal_: Function, takeScreenshot: Function, manage: Function, switchTo: Function, driver: thenableWebDriverProxy({ flow_: ControlFlow::4944\n| TaskQueue::335\n| | (pending) Task::334<Run it(\"To verify bookmark any item\") in control flow>\n| | | TaskQueue::338\n| | | | (pending) Task::385<then>\n| | | | | (active) TaskQueue::4871\n| | | | | | Task::4873<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4875<then>\n| | | | | | Task::4877<then>\n| | | | | | Task::4879<then>\n| | | | | | Task::4881<then>\n| | | | | | Task::4883<then>\n| | | | | | Task::4885<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4887<then>\n| | | | | | Task::4889<then>\n| | | | | | Task::4891<then>\n| | | | | | Task::4893<then>\n| | | | | | Task::4895<then>\n| | | | | | Task::4897<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4899<then>\n| | | | | | Task::4901<then>\n| | | | | | Task::4903<then>\n| | | | | | Task::4905<then>\n| | | | | | Task::4907<then>\n| | | | | | Task::4909<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4911<then>\n| | | | | | Task::4913<then>\n| | | | | | Task::4915<then>\n| | | | | | Task::4917<then>\n| | | | | | Task::4919<then>\n| | | | | | Task::4921<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4923<then>\n| | | | | | Task::4925<then>\n| | | | | | Task::4927<then>\n| | | | | | Task::4929<then>\n| | | | | | Task::4931<then>\n| | | | | | Task::4933<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4935<then>\n| | | | | | Task::4937<then>\n| | | | | | Task::4939<then>\n| | | | | | Task::4941<then>\n| | | | | | Task::4943<then>\n| | Task::337<then>\n| TaskQueue::4738\n| | (pending) Task::4740<then>\n| | | TaskQueue::4869\n| | | | (pending) Task::2706<then>\n| | | | | TaskQueue::4870, session_: ManagedPromise::4 {[[PromiseStatus]]: \"fulfilled\"}, executor_: Executor({ w3c: false, customCommands_: Map( [ 'launchApp', Object({ method: 'POST', path: '/session/:sessionId/chromium/launch_app' }) ], [ 'getNetworkConnection', Object({ method: 'GET', path: '/session/:sessionId/network_connection' }) ], [ 'setNetworkConnection', Object({ method: 'POST', path: '/session/:sessionId/network_connection' }) ], [ 'toggleAirplaneMode', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_airplane_mode' }) ], [ 'toggleWiFi', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_wifi' }) ], [ 'toggleData', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_data' }) ], [ 'toggleLocationServices', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_location_services' }) ], [ 'getGeolocation', Object({ method: 'GET', path: '/session/:sessionId/location' }) ], [ 'setGeolocation', Object({ method: 'POST', path: '/session/:sessionId/location' }) ], [ 'getCurrentDeviceActivity', Object({ method: 'GET', path: '/session/:sessionId/appium/device/current_activity' }) ], [ 'startDeviceActivity', Object({ method: 'POST', path: '/session/:sessionId/appium/device/start_activity' }) ], [ 'getAppiumSettings', Object({ method: 'GET', path: '/session/:sessionId/appium/settings' }) ], [ 'setAppiumSettings', Object({ method: 'POST', path: '/session/:sessionId/appium/settings' }) ], [ 'getCurrentContext', Object({ method: 'GET', path: '/session/:sessionId/context' }) ], [ 'selectContext', Object({ method: 'POST', path: '/session/:sessionId/context' }) ], [ 'getScreenOrientation', Object({ method: 'GET', path: '/session/:sessionId/orientation' }) ], [ 'setScreenOrientation', Object({ method: 'POST', path: '/session/:sessionId/orientation' }) ], [ 'isDeviceLocked', Object({ method: 'POST', path: '/session/:sessionId/appium/device/is_locked' }) ], [ 'lockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/lock' }) ], [ 'unlockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/unlock' }) ], [ 'installApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/install_app' }) ], [ 'isAppInstalled', Object({ method: 'POST', path: '/session/:sessionId/appium/device/app_installed' }) ], [ 'removeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/remove_app' }) ], [ 'pullFileFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_file' }) ], [ 'pullFolderFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_folder' }) ], [ 'pushFileToDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/push_file' }) ], [ 'listContexts', Object({ method: 'GET', path: '/session/:sessionId/contexts' }) ], [ 'uploadFile', Object({ method: 'POST', path: '/session/:sessionId/file' }) ], [ 'switchToParentFrame', Object({ method: 'POST', path: '/session/:sessionId/frame/parent' }) ], [ 'fullscreen', Object({ method: 'POST', path: '/session/:sessionId/window/fullscreen' }) ], [ 'sendAppToBackground', Object({ method: 'POST', path: '/session/:sessionId/appium/app/background' }) ], [ 'closeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/close' }) ], [ 'getAppStrings', Object({ method: 'POST', path: '/session/:sessionId/appium/app/strings' }) ], [ 'launchSession', Object({ method: 'POST', path: '/session/:sessionId/appium/app/launch' }) ], [ 'resetApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/reset' }) ], [ 'hideSoftKeyboard', Object({ method: 'POST', path: '/session/:sessionId/appium/device/hide_keyboard' }) ], [ 'getDeviceTime', Object({ method: 'GET', path: '/session/:sessionId/appium/device/system_time' }) ], [ 'openDeviceNotifications', Object({ method: 'POST', path: '/session/:sessionId/appium/device/open_notifications' }) ], [ 'rotationGesture', Object({ method: 'POST', path: '/session/:sessionId/appium/device/rotate' }) ], [ 'shakeDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/shake' }) ] ), log_: Logger({ name_: 'webdriver.http.Executor', level_: null, parent_: Logger({ name_: 'webdriver.http', level_: null, parent_: Logger({ name_: 'webdriver', level_: null, parent_: Logger({ name_: '', level_: OFF, parent_: null, handlers_: null }), handlers_: null }), handlers_: null }), handlers_: null }) }), fileDetector_: null, onQuit_: undefined, cancel: Function, then: Function, catch: Function, getNetworkConnection: Function, setNetworkConnection: Function, toggleAirplaneMode: Function, toggleWiFi: Function, toggleData: Function, toggleLocationServices: Function, getGeolocation: Function, setGeolocation: Function, getCurrentDeviceActivity: Function, startDeviceActivity: Function, getAppiumSettings: Function, setAppiumSettings: Function, getCurrentContext: Function, selectContext: Function, getScreenOrientation: Function, setScreenOrientation: Function, isDeviceLocked: Function, lockDevice: Function, unlockDevice: Function, installApp: Function, isAppInstalled: Function, removeApp: Function, pullFileFromDevice: Function, pullFolderFromDevice: Function, pushFileToDevice: Function, listContexts: Function, uploadFile: Function, switchToParentFrame: Function, fullscreen: Function, sendAppToBackground: Function, closeApp: Function, getAppStrings: Function, launchSession: Function, resetApp: Function, hideSoftKeyboard: Function, getDeviceTime: Function, openDeviceNotifications: Function, rotationGesture: Function, shakeDevice: Function }), element: Function, $: Function, $: Function, baseUrl: '', getPageTimeout: 10000, params: Object({  }), resetUrl: 'data:text/html,<html></html>', debugHelper: DebugHelper({ browserUnderDebug_: <circular reference: Object> }), ready: ManagedPromise::19 {[[PromiseStatus]]: \"fulfilled\"}, trackOutstandingTimeouts_: true, mockModules_: [ Object({ name: 'protractorBaseModule_', script: Function, args: [ true ] }) ], ExpectedConditions: ProtractorExpectedConditions({ browser: <circular reference: Object> }), plugins_: Plugins({ setup: Function, onPrepare: Function, teardown: Function, postResults: Function, postTest: Function, onPageLoad: Function, onPageStable: Function, waitForPromise: Function, waitForCondition: Function, pluginObjs: [  ], assertions: Object({  }), resultsReported: false }), allScriptsTimeout: 11000, getProcessedConfig: Function, forkNewDriverInstance: Function, restart: Function, restartSync: Function, internalRootEl: '', internalIgnoreSynchronization: true }), then: null, parentElementArrayFinder: ElementArrayFinder({ browser_: ProtractorBrowser({ controlFlow: Function, schedule: Function, setFileDetector: Function, getExecutor: Function, getSession: Function, getCapabilities: Function, quit: Function, actions: Function, touchActions: Function, executeScript: Function, executeAsyncScript: Function, call: Function, wait: Function, sleep: Function, getWindowHandle: Function, getAllWindowHandles: Function, getPageSource: Function, close: Function, getCurrentUrl: Function, getTitle: Function, findElementInternal_: Function, findElementsInternal_: Function, takeScreenshot: Function, manage: Function, switchTo: Function, driver: thenableWebDriverProxy({ flow_: ControlFlow::4944\n| TaskQueue::335\n| | (pending) Task::334<Run it(\"To verify bookmark any item\") in control flow>\n| | | TaskQueue::338\n| | | | (pending) Task::385<then>\n| | | | | (active) TaskQueue::4871\n| | | | | | Task::4873<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4875<then>\n| | | | | | Task::4877<then>\n| | | | | | Task::4879<then>\n| | | | | | Task::4881<then>\n| | | | | | Task::4883<then>\n| | | | | | Task::4885<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4887<then>\n| | | | | | Task::4889<then>\n| | | | | | Task::4891<then>\n| | | | | | Task::4893<then>\n| | | | | | Task::4895<then>\n| | | | | | Task::4897<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4899<then>\n| | | | | | Task::4901<then>\n| | | | | | Task::4903<then>\n| | | | | | Task::4905<then>\n| | | | | | Task::4907<then>\n| | | | | | Task::4909<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4911<then>\n| | | | | | Task::4913<then>\n| | | | | | Task::4915<then>\n| | | | | | Task::4917<then>\n| | | | | | Task::4919<then>\n| | | | | | Task::4921<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4923<then>\n| | | | | | Task::4925<then>\n| | | | | | Task::4927<then>\n| | | | | | Task::4929<then>\n| | | | | | Task::4931<then>\n| | | | | | Task::4933<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4935<then>\n| | | | | | Task::4937<then>\n| | | | | | Task::4939<then>\n| | | | | | Task::4941<then>\n| | | | | | Task::4943<then>\n| | Task::337<then>\n| TaskQueue::4738\n| | (pending) Task::4740<then>\n| | | TaskQueue::4869\n| | | | (pending) Task::2706<then>\n| | | | | TaskQueue::4870, session_: ManagedPromise::4 {[[PromiseStatus]]: \"fulfilled\"}, executor_: Executor({ w3c: false, customCommands_: Map( [ 'launchApp', Object({ method: 'POST', path: '/session/:sessionId/chromium/launch_app' }) ], [ 'getNetworkConnection', Object({ method: 'GET', path: '/session/:sessionId/network_connection' }) ], [ 'setNetworkConnection', Object({ method: 'POST', path: '/session/:sessionId/network_connection' }) ], [ 'toggleAirplaneMode', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_airplane_mode' }) ], [ 'toggleWiFi', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_wifi' }) ], [ 'toggleData', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_data' }) ], [ 'toggleLocationServices', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_location_services' }) ], [ 'getGeolocation', Object({ method: 'GET', path: '/session/:sessionId/location' }) ], [ 'setGeolocation', Object({ method: 'POST', path: '/session/:sessionId/location' }) ], [ 'getCurrentDeviceActivity', Object({ method: 'GET', path: '/session/:sessionId/appium/device/current_activity' }) ], [ 'startDeviceActivity', Object({ method: 'POST', path: '/session/:sessionId/appium/device/start_activity' }) ], [ 'getAppiumSettings', Object({ method: 'GET', path: '/session/:sessionId/appium/settings' }) ], [ 'setAppiumSettings', Object({ method: 'POST', path: '/session/:sessionId/appium/settings' }) ], [ 'getCurrentContext', Object({ method: 'GET', path: '/session/:sessionId/context' }) ], [ 'selectContext', Object({ method: 'POST', path: '/session/:sessionId/context' }) ], [ 'getScreenOrientation', Object({ method: 'GET', path: '/session/:sessionId/orientation' }) ], [ 'setScreenOrientation', Object({ method: 'POST', path: '/session/:sessionId/orientation' }) ], [ 'isDeviceLocked', Object({ method: 'POST', path: '/session/:sessionId/appium/device/is_locked' }) ], [ 'lockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/lock' }) ], [ 'unlockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/unlock' }) ], [ 'installApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/install_app' }) ], [ 'isAppInstalled', Object({ method: 'POST', path: '/session/:sessionId/appium/device/app_installed' }) ], [ 'removeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/remove_app' }) ], [ 'pullFileFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_file' }) ], [ 'pullFolderFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_folder' }) ], [ 'pushFileToDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/push_file' }) ], [ 'listContexts', Object({ method: 'GET', path: '/session/:sessionId/contexts' }) ], [ 'uploadFile', Object({ method: 'POST', path: '/session/:sessionId/file' }) ], [ 'switchToParentFrame', Object({ method: 'POST', path: '/session/:sessionId/frame/parent' }) ], [ 'fullscreen', Object({ method: 'POST', path: '/session/:sessionId/window/fullscreen' }) ], [ 'sendAppToBackground', Object({ method: 'POST', path: '/session/:sessionId/appium/app/background' }) ], [ 'closeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/close' }) ], [ 'getAppStrings', Object({ method: 'POST', path: '/session/:sessionId/appium/app/strings' }) ], [ 'launchSession', Object({ method: 'POST', path: '/session/:sessionId/appium/app/launch' }) ], [ 'resetApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/reset' }) ], [ 'hideSoftKeyboard', Object({ method: 'POST', path: '/session/:sessionId/appium/device/hide_keyboard' }) ], [ 'getDeviceTime', Object({ method: 'GET', path: '/session/:sessionId/appium/device/system_time' }) ], [ 'openDeviceNotifications', Object({ method: 'POST', path: '/session/:sessionId/appium/device/open_notifications' }) ], [ 'rotationGesture', Object({ method: 'POST', path: '/session/:sessionId/appium/device/rotate' }) ], [ 'shakeDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/shake' }) ] ), log_: Logger({ name_: 'webdriver.http.Executor', level_: null, parent_: Logger({ name_: 'webdriver.http', level_: null, parent_: Logger({ name_: 'webdriver', level_: null, parent_: Logger({ name_: '', level_: OFF, parent_: null, handlers_: null }), handlers_: null }), handlers_: null }), handlers_: null }) }), fileDetector_: null, onQuit_: undefined, cancel: Function, then: Function, catch: Function, getNetworkConnection: Function, setNetworkConnection: Function, toggleAirplaneMode: Function, toggleWiFi: Function, toggleData: Function, toggleLocationServices: Function, getGeolocation: Function, setGeolocation: Function, getCurrentDeviceActivity: Function, startDeviceActivity: Function, getAppiumSettings: Function, setAppiumSettings: Function, getCurrentContext: Function, selectContext: Function, getScreenOrientation: Function, setScreenOrientation: Function, isDeviceLocked: Function, lockDevice: Function, unlockDevice: Function, installApp: Function, isAppInstalled: Function, removeApp: Function, pullFileFromDevice: Function, pullFolderFromDevice: Function, pushFileToDevice: Function, listContexts: Function, uploadFile: Function, switchToParentFrame: Function, fullscreen: Function, sendAppToBackground: Function, closeApp: Function, getAppStrings: Function, launchSession: Function, resetApp: Function, hideSoftKeyboard: Function, getDeviceTime: Function, openDeviceNotifications: Function, rotationGesture: Function, shakeDevice: Function }), element: Function, $: Function, $: Function, baseUrl: '', getPageTimeout: 10000, params: Object({  }), resetUrl: 'data:text/html,<html></html>', debugHelper: DebugHelper({ browserUnderDebug_: <circular reference: Object> }), ready: ManagedPromise::19 {[[PromiseStatus]]: \"fulfilled\"}, trackOutstandingTimeouts_: true, mockModules_: [ Object({ name: 'protractorBaseModule_', script: Function, args: [ true ] }) ], ExpectedConditions: ProtractorExpectedConditions({ browser: <circular reference: Object> }), plugins_: Plugins({ setup: Function, onPrepare: Function, teardown: Function, postResults: Function, postTest: Function, onPageLoad: Function, onPageStable: Function, waitForPromise: Function, waitForCondition: Function, pluginObjs: [  ], assertions: Object({  }), resultsReported: false }), allScriptsTimeout: 11000, getProcessedConfig: Function, forkNewDriverInstance: Function, restart: Function, restartSync: Function, internalRootEl: '', internalIgnoreSynchronization: true }), getWebElements: Function, locator_: By(xpath, //*[@id=\"0\"]/div/table/tbody/tr/td[2]), actionResults_: null, click: Function, sendKeys: Function, getTagName: Function, getCssValue: Function, getAttribute: Function, getText: Function, getSize: Function, getLocation: Function, isEnabled: Function, isSelected: Function, submit: Function, clear: Function, isDisplayed: Function, getId: Function, takeScreenshot: Function }), elementArrayFinder_: ElementArrayFinder({ browser_: ProtractorBrowser({ controlFlow: Function, schedule: Function, setFileDetector: Function, getExecutor: Function, getSession: Function, getCapabilities: Function, quit: Function, actions: Function, touchActions: Function, executeScript: Function, executeAsyncScript: Function, call: Function, wait: Function, sleep: Function, getWindowHandle: Function, getAllWindowHandles: Function, getPageSource: Function, close: Function, getCurrentUrl: Function, getTitle: Function, findElementInternal_: Function, findElementsInternal_: Function, takeScreenshot: Function, manage: Function, switchTo: Function, driver: thenableWebDriverProxy({ flow_: ControlFlow::4944\n| TaskQueue::335\n| | (pending) Task::334<Run it(\"To verify bookmark any item\") in control flow>\n| | | TaskQueue::338\n| | | | (pending) Task::385<then>\n| | | | | (active) TaskQueue::4871\n| | | | | | Task::4873<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4875<then>\n| | | | | | Task::4877<then>\n| | | | | | Task::4879<then>\n| | | | | | Task::4881<then>\n| | | | | | Task::4883<then>\n| | | | | | Task::4885<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4887<then>\n| | | | | | Task::4889<then>\n| | | | | | Task::4891<then>\n| | | | | | Task::4893<then>\n| | | | | | Task::4895<then>\n| | | | | | Task::4897<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4899<then>\n| | | | | | Task::4901<then>\n| | | | | | Task::4903<then>\n| | | | | | Task::4905<then>\n| | | | | | Task::4907<then>\n| | | | | | Task::4909<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4911<then>\n| | | | | | Task::4913<then>\n| | | | | | Task::4915<then>\n| | | | | | Task::4917<then>\n| | | | | | Task::4919<then>\n| | | | | | Task::4921<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4923<then>\n| | | | | | Task::4925<then>\n| | | | | | Task::4927<then>\n| | | | | | Task::4929<then>\n| | | | | | Task::4931<then>\n| | | | | | Task::4933<Ignore Synchronization Protractor.waitForAngular()>\n| | | | | | Task::4935<then>\n| | | | | | Task::4937<then>\n| | | | | | Task::4939<then>\n| | | | | | Task::4941<then>\n| | | | | | Task::4943<then>\n| | Task::337<then>\n| TaskQueue::4738\n| | (pending) Task::4740<then>\n| | | TaskQueue::4869\n| | | | (pending) Task::2706<then>\n| | | | | TaskQueue::4870, session_: ManagedPromise::4 {[[PromiseStatus]]: \"fulfilled\"}, executor_: Executor({ w3c: false, customCommands_: Map( [ 'launchApp', Object({ method: 'POST', path: '/session/:sessionId/chromium/launch_app' }) ], [ 'getNetworkConnection', Object({ method: 'GET', path: '/session/:sessionId/network_connection' }) ], [ 'setNetworkConnection', Object({ method: 'POST', path: '/session/:sessionId/network_connection' }) ], [ 'toggleAirplaneMode', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_airplane_mode' }) ], [ 'toggleWiFi', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_wifi' }) ], [ 'toggleData', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_data' }) ], [ 'toggleLocationServices', Object({ method: 'POST', path: '/session/:sessionId/appium/device/toggle_location_services' }) ], [ 'getGeolocation', Object({ method: 'GET', path: '/session/:sessionId/location' }) ], [ 'setGeolocation', Object({ method: 'POST', path: '/session/:sessionId/location' }) ], [ 'getCurrentDeviceActivity', Object({ method: 'GET', path: '/session/:sessionId/appium/device/current_activity' }) ], [ 'startDeviceActivity', Object({ method: 'POST', path: '/session/:sessionId/appium/device/start_activity' }) ], [ 'getAppiumSettings', Object({ method: 'GET', path: '/session/:sessionId/appium/settings' }) ], [ 'setAppiumSettings', Object({ method: 'POST', path: '/session/:sessionId/appium/settings' }) ], [ 'getCurrentContext', Object({ method: 'GET', path: '/session/:sessionId/context' }) ], [ 'selectContext', Object({ method: 'POST', path: '/session/:sessionId/context' }) ], [ 'getScreenOrientation', Object({ method: 'GET', path: '/session/:sessionId/orientation' }) ], [ 'setScreenOrientation', Object({ method: 'POST', path: '/session/:sessionId/orientation' }) ], [ 'isDeviceLocked', Object({ method: 'POST', path: '/session/:sessionId/appium/device/is_locked' }) ], [ 'lockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/lock' }) ], [ 'unlockDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/unlock' }) ], [ 'installApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/install_app' }) ], [ 'isAppInstalled', Object({ method: 'POST', path: '/session/:sessionId/appium/device/app_installed' }) ], [ 'removeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/device/remove_app' }) ], [ 'pullFileFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_file' }) ], [ 'pullFolderFromDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/pull_folder' }) ], [ 'pushFileToDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/push_file' }) ], [ 'listContexts', Object({ method: 'GET', path: '/session/:sessionId/contexts' }) ], [ 'uploadFile', Object({ method: 'POST', path: '/session/:sessionId/file' }) ], [ 'switchToParentFrame', Object({ method: 'POST', path: '/session/:sessionId/frame/parent' }) ], [ 'fullscreen', Object({ method: 'POST', path: '/session/:sessionId/window/fullscreen' }) ], [ 'sendAppToBackground', Object({ method: 'POST', path: '/session/:sessionId/appium/app/background' }) ], [ 'closeApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/close' }) ], [ 'getAppStrings', Object({ method: 'POST', path: '/session/:sessionId/appium/app/strings' }) ], [ 'launchSession', Object({ method: 'POST', path: '/session/:sessionId/appium/app/launch' }) ], [ 'resetApp', Object({ method: 'POST', path: '/session/:sessionId/appium/app/reset' }) ], [ 'hideSoftKeyboard', Object({ method: 'POST', path: '/session/:sessionId/appium/device/hide_keyboard' }) ], [ 'getDeviceTime', Object({ method: 'GET', path: '/session/:sessionId/appium/device/system_time' }) ], [ 'openDeviceNotifications', Object({ method: 'POST', path: '/session/:sessionId/appium/device/open_notifications' }) ], [ 'rotationGesture', Object({ method: 'POST', path: '/session/:sessionId/appium/device/rotate' }) ], [ 'shakeDevice', Object({ method: 'POST', path: '/session/:sessionId/appium/device/shake' }) ] ), log_: Logger({ name_: 'webdriver.http.Executor', level_: null, parent_: Logger({ name_: 'webdriver.http', level_: null, parent_: Logger({ name_: 'webdriver', level_: null, parent_: Logger({ name_: '', level_: OFF, parent_: null, handlers_: null }), handlers_: null }), handlers_: null }), handlers_: null }) }), fileDetector_: null, onQuit_: undefined, cancel: Function, then: Function, catch: Function, getNetworkConnection: Function, setNetworkConnection: Function, toggleAirplaneMode: Function, toggleWiFi: Function, toggleData: Function, toggleLocationServices: Function, getGeolocation: Function, setGeolocation: Function, getCurrentDeviceActivity: Function, startDeviceActivity: Function, getAppiumSettings: Function, setAppiumSettings: Function, getCurrentContext: Function, selectContext: Function, getScreenOrientation: Function, setScreenOrientation: Function, isDeviceLocked: Function, lockDevice: Function, unlockDevice: Function, installApp: Function, isAppInstalled: Function, removeApp: Function, pullFileFromDevice: Function, pullFolderFromDevice: Function, pushFileToDevice: Function, listContexts: Function, uploadFile: Function, switchToParentFrame: Function, fullscreen: Function, sendAppToBackground: Function, closeApp: Function, getAppStrings: Function, launchSession: Function, resetApp: Function, hideSoftKeyboard: Function, getDeviceTime: Function, openDeviceNotifications: Function, rotationGesture: Function, shakeDevice: Function }), element: Function, $: Function, $: Function, baseUrl: '', getPageTimeout: 10000, params: Object({  }), resetUrl: 'data:text/html,<html></html>', debugHelper: DebugHelper({ browserUnderDebug_: <circular reference: Object> }), ready: ManagedPromise::19 {[[PromiseStatus]]: \"fulfilled\"}, trackOutstandingTimeouts_: true, mockModules_: [ Object({ name: 'protractorBaseModule_', script: Function, args: [ true ] }) ], ExpectedConditions: ProtractorExpectedConditions({ browser: <circular reference: Object> }), plugins_: Plugins({ setup: Function, onPrepare: Function, teardown: Function, postResults: Function, postTest: Function, onPageLoad: Function, onPageStable: Function, waitForPromise: Function, waitForCondition: Function, pluginObjs: [  ], assertions: Object({  }), resultsReported: false }), allScriptsTimeout: 11000, getProcessedConfig: Function, forkNewDriverInstance: Function, restart: Function, restartSync: Function, internalRootEl: '', internalIgnoreSynchronization: true }), getWebElements: Function, locator_: By(xpath, //*[@id=\"0\"]/div/table/tbody/tr/td[2]), actionResults_: null, click: Function, sendKeys: Function, getTagName: Function, getCssValue: Function, getAttribute: Function, getText: Function, getSize: Function, getLocation: Function, isEnabled: Function, isSelected: Function, submit: Function, clear: Function, isDisplayed: Function, getId: Function, takeScreenshot: Function }), click: Function, sendKeys: Function, getTagName: Function, getCssValue: Function, getAttribute: Function, getText: Function, getSize: Function, getLocation: Function, isEnabled: Function, isSelected: Function, submit: Function, clear: Function, isDisplayed: Function, getId: Function, takeScreenshot: Function }) to equal 'Green haarvest'.",
+        "trace": "Error: Failed expectation\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:52:72\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511259013839,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=Y03qssvsj91Kd91zDmQ8qjWtCBUe8dDqffqlfNOut7dbf58czrIGlO0r3DfXZZiXIj1eyHHv49pEKzKtd0qY6dUAXeEYyXoqeLJNoBkDTktByTDp1QrkMgpeRCXOlILC&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32103553597970600719_1511259011320&_=1511259011322' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511259016960,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00d6006d-0066-0072-00f3-002f00200022.png",
+        "duration": 10292
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511259061953,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=kzFqrSB5J3nh%2FmOeSpklPXTM7sPLhz7xOrrUyYus6fvGD%2Fk5A50rw1ugGd0XgKj3J%2F3cmQ%2FgGgGd7MuNmPgLPv%2BNsbdl5J4r0bEg2bUZXF4dKW83WAJ39%2BycpQ1POLgh&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32104714609574807116_1511259059313&_=1511259059315' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511259065117,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00a80051-001f-00d9-00c7-00f000a30047.png",
+        "duration": 10434
+    },
+    {
+        "description": "To verify bookmark any item|To test Order Details",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511260346409,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=n4Zgg0et3zcSVJ6ajkLAXOsuNdxUKOJwPUp8ApBzpuemMcW%2FuuieQFrOjzrLNvMNWaaGmalqaGxNHP0iyKc%2BgjjIXMlsVccpWYDMpjYSnx7AbgMZMcp4l8gxTuczyVsQ&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32103191606569874703_1511260343829&_=1511260343831' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511260349546,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00d400b5-0032-00f7-00c4-0040008000e1.png",
+        "duration": 10406
+    },
+    {
+        "description": "To verify Sorting filter|To test Order Details",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511260814200,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=%2Blc8dL46G7QmFd4vxmphxj8JPVBw2SXZflUNRhglJUsv9FCgHdI6DdYOfXGk03AG6UD4FlKoUmgekLPyeOfjk%2Bl0ha77Du7umhXl%2FmAuRB8dmEMeyJ9LV4TcN4O9TQpx&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32109963660355791311_1511260811469&_=1511260811471' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511260817110,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00b400ac-0095-0097-0074-00ec009c0088.png",
+        "duration": 8212
+    },
+    {
+        "description": "To verify Sorting filter|To test Order Details",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: Wait timed out after 5009ms",
+        "trace": "TimeoutError: Wait timed out after 5009ms\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at TimeoutError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:238:5)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2107:17\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2094:20)\n    at ControlFlow.wait (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2408:12)\n    at thenableWebDriverProxy.wait (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:943:29)\n    at run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\browser.ts:66:27)\n    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\browser.ts:74:12)\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:83:13\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\nFrom: Task: Run it(\"To verify Sorting filter\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:60:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511260939807,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=d7Zjw%2BV6WtrMix8SmATmUu7nHGZ76T40M9yWfMX0m1fJePF601MCdFfuGjGqkX1H8yBRi%2FHwgMJQuQu%2FmCdLor%2FAn475q4QjoFh1pQQTYSybNIbiQpskZAmdQnqtJ3iF&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32104906365589201531_1511260937219&_=1511260937221' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511260942859,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00280024-0094-002a-0098-00be008500ec.png",
+        "duration": 13506
+    },
+    {
+        "description": "To verify Sorting filter|To test Order Details",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: Wait timed out after 5000ms",
+        "trace": "TimeoutError: Wait timed out after 5000ms\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at TimeoutError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:238:5)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2107:17\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2094:20)\n    at ControlFlow.wait (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2408:12)\n    at thenableWebDriverProxy.wait (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:943:29)\n    at run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\browser.ts:66:27)\n    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\browser.ts:74:12)\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:83:13\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\nFrom: Task: Run it(\"To verify Sorting filter\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:60:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\orderDetails_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511260971118,
+                "type": ""
+            },
+            {
+                "level": "SEVERE",
+                "message": "http://172.16.0.46/PSPSUIBuild/orders - Refused to execute script from 'http://172.16.2.29/PickTaskAPI/signalr/abort?transport=longPolling&clientProtocol=1.5&name=9&connectionToken=P6l4c0wI6xfAzkk%2Bd4paYsigJDvYQ84ReUvYoooFdiRl1mZdOlHBiAZhanzE2wKoEvhfCz4%2F3cHIoTdi2NAMCCgjo0TAMhgqYcNs975yYAhaElporelZRTd8QguMHLzn&connectionData=%5B%7B%22name%22%3A%22notificationhub%22%7D%5D&callback=jQuery32107019523837509105_1511260968644&_=1511260968646' because its MIME type ('') is not executable, and strict MIME type checking is enabled.",
+                "timestamp": 1511260974145,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00c70064-00d8-00a9-0030-0062004a00d5.png",
+        "duration": 13673
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+        "trace": "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n    at Timeout._onTimeout (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4281:23)\n    at ontimeout (timers.js:386:11)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511864867296,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00af002d-00ec-0079-00a9-001a00de008c.png",
+        "duration": 95299
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(css selector, *[id=\"userName\"])",
+        "trace": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"userName\"])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at keywords.enterFieldValue (D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:13:27)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:70:13)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\nFrom: Task: Run it(\"To verify Open order/picklist details page from dashboard page\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:66:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [],
+        "screenShotFile": "images\\00c700ac-00b7-0006-0025-001b00ff001b.png",
+        "duration": 3117
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(css selector, *[id=\"userName\"])",
+        "trace": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"userName\"])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at keywords.enterFieldValue (D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:13:27)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:98:13)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\nFrom: Task: Run it(\"To verify bookmark any item\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:93:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [],
+        "screenShotFile": "images\\006f0096-00d2-0002-00d9-00150002007b.png",
+        "duration": 2810
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+        "trace": "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n    at Timeout._onTimeout (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4281:23)\n    at ontimeout (timers.js:386:11)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511865067797,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\003a0015-0026-00ac-0018-00d600240048.png",
+        "duration": 95140
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(css selector, *[id=\"userName\"])",
+        "trace": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"userName\"])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at keywords.enterFieldValue (D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:13:27)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:70:13)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\nFrom: Task: Run it(\"To verify Open order/picklist details page from dashboard page\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:66:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [],
+        "screenShotFile": "images\\00ab00e7-00f0-001e-00a2-00760067005b.png",
+        "duration": 3065
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(css selector, *[id=\"userName\"])",
+        "trace": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"userName\"])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at keywords.enterFieldValue (D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:13:27)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:98:13)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\nFrom: Task: Run it(\"To verify bookmark any item\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:93:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [],
+        "screenShotFile": "images\\002b009d-0035-003f-00f2-005000e9004d.png",
+        "duration": 2560
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511865312246,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00fc0040-00f9-0005-00ac-003800310019.png",
+        "duration": 10582
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511866599478,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00ab0005-008b-0004-00c0-0029002500dc.png",
+        "duration": 15989
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Expected 'New Columns' to equal 'value'.",
+        "trace": "Error: Failed expectation\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:85:39\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511866887710,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\005100a6-001c-001f-0053-003800460037.png",
+        "duration": 10596
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511869243750,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00a1000b-00b0-00d1-0051-00a90055002d.png",
+        "duration": 10839
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(xpath, //*[@id=\"filter\"]/form/div[10]/button[1])",
+        "trace": "NoSuchElementError: No element found using locator: By(xpath, //*[@id=\"filter\"]/form/div[10]/button[1])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as click] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as click] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:60:22\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: Run it(\"To verify creating a new column\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:28:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511874266224,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00b800ab-00c8-0091-00f0-000f00a300e0.png",
+        "duration": 17891
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(xpath, //*[@id=\"filter\"]/form/div[10]/button[1])",
+        "trace": "NoSuchElementError: No element found using locator: By(xpath, //*[@id=\"filter\"]/form/div[10]/button[1])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as click] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as click] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:60:22\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)\nFrom: Task: Run it(\"To verify creating a new column\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:28:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511874349746,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00e10058-00c7-00c3-00fc-0089006200b7.png",
+        "duration": 10043
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511874588351,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00ba0035-0001-00b5-009c-007a00b50049.png",
+        "duration": 10486
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511878074432,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00930077-00dd-0052-003b-006e00ef00f9.png",
+        "duration": 11073
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Expected 'Orders' to equal '/html/body/app-root/div/app-header/div/div/div/breadcrumb/ul/li[1]/a'.",
+        "trace": "Error: Failed expectation\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:86:39\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511880335282,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00f7004b-007d-0045-00df-008000a20004.png",
+        "duration": 11110
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511880617048,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\005c0044-007b-00f0-00ce-002a008f001e.png",
+        "duration": 9963
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Expected 'GREEN HARVEST' to equal 'WONDERFUL WORLD'.",
+        "trace": "Error: Failed expectation\n    at D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:106:36\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511883413318,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00870034-00a8-00d8-00bf-007400ba00b3.png",
+        "duration": 9911
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511883603495,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\006500e4-002c-006b-00e4-00ef00a50041.png",
+        "duration": 10018
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511883680593,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\000500fd-00b5-0062-009e-006000360031.png",
+        "duration": 10161
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886074961,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00a900da-00da-000e-004a-00ca00a300a0.png",
+        "duration": 12345
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886085522,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\000a0016-00ce-002d-009d-00d3006e0034.png",
+        "duration": 7983
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(css selector, *[id=\"userName\"])",
+        "trace": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"userName\"])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at keywords.enterFieldValue (D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:13:27)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:86:13)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\nFrom: Task: Run it(\"To verify bookmark any item\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:81:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [],
+        "screenShotFile": "images\\004900a7-0095-0093-0097-00e3007900e6.png",
+        "duration": 2125
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886134518,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00bf008f-0068-002e-00ae-00a100b20092.png",
+        "duration": 12162
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886145147,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\001f00f7-00e2-0030-0054-002800bc009c.png",
+        "duration": 7949
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(css selector, *[id=\"userName\"])",
+        "trace": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"userName\"])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at keywords.enterFieldValue (D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:13:27)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:86:13)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\nFrom: Task: Run it(\"To verify bookmark any item\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\n    at shutdownTask_.MicroTask (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2490:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:81:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:15:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [],
+        "screenShotFile": "images\\006800a8-0026-004c-0021-002d00ef0084.png",
+        "duration": 2134
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886264322,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00080022-00ce-006a-0041-0008004a0028.png",
+        "duration": 12524
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886275108,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\002d00f8-00bd-000a-00f8-001f002e00f3.png",
+        "duration": 7690
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886439124,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\0070000c-00ec-000f-00f1-007200420012.png",
+        "duration": 14109
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886450734,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00b300ef-0004-00b2-00b1-00d800d800c1.png",
+        "duration": 8172
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886636589,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\008d0023-00df-008c-00e3-003f009000b8.png",
+        "duration": 12046
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511886647240,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\003000d2-007d-0003-0014-0086009e006d.png",
+        "duration": 7713
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511887742615,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\001e00a0-00ef-00bf-0036-0055003800dd.png",
+        "duration": 11301
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511887752856,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\003d00dd-00b0-0085-000a-001e001500ed.png",
+        "duration": 7433
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511887919582,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00e300ac-0064-0013-0033-007700530024.png",
+        "duration": 20376
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511887939457,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00800042-00af-00c6-009b-00a100e90026.png",
+        "duration": 11566
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Failed: No element found using locator: By(css selector, *[id=\"userName\"])",
+        "trace": "NoSuchElementError: No element found using locator: By(css selector, *[id=\"userName\"])\n    at WebDriverError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:27:5)\n    at NoSuchElementError (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:168:5)\n    at elementArrayFinder.getWebElements.then (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:851:17)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:482:23)\n    at ElementArrayFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:96:21)\n    at ElementFinder.(anonymous function) [as sendKeys] (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\lib\\element.ts:873:14)\n    at keywords.enterFieldValue (D:\\Automation POCs\\PSPS_ProtractorFramework\\pageTestCases\\keywords.js:13:27)\n    at UserContext.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:98:13)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1067:7)\n    at ControlFlow.promise (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2396:12)\n    at schedulerExecute (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\nFrom: Task: Run it(\"To verify bookmark any item\") in control flow\n    at ControlFlow.browser.driver.controlFlow.execute (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:22:17)\n    at UserContext.<anonymous> (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2565:10)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:92:2)\n    at addSpecsToSuite (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\optimus32\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Automation POCs\\PSPS_ProtractorFramework\\specs\\dashboard_spec.js:26:1)\n    at Module._compile (module.js:570:32)\n    at Object.Module._extensions..js (module.js:579:10)\n    at Module.load (module.js:487:32)\n    at tryModuleLoad (module.js:446:12)",
+        "browserLogs": [],
+        "screenShotFile": "images\\00b4000b-00b9-0002-0055-008c006f0089.png",
+        "duration": 10117
+    },
+    {
+        "description": "To verify creating a new column|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511888036772,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\001a0092-0046-00db-0006-008600ec003b.png",
+        "duration": 20090
+    },
+    {
+        "description": "To verify Open order/picklist details page from dashboard page|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511888056393,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00e000b0-00ab-0078-001d-00ed00430049.png",
+        "duration": 11485
+    },
+    {
+        "description": "To verify bookmark any item|To test dashboard",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "browser": {
+            "name": "chrome",
+            "version": "62.0.3202.94"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [
+            {
+                "level": "WARNING",
+                "message": "http://172.16.0.46/PSPSUIBuild/login - This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.",
+                "timestamp": 1511888067197,
+                "type": ""
+            }
+        ],
+        "screenShotFile": "images\\00750077-0018-00a4-00c2-0040007600d1.png",
+        "duration": 18960
     }
 ];
 });

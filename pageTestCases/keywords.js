@@ -58,6 +58,7 @@ var keywords = function(){
 			var targetEleToClick = element(by.xpath(clickOnObject));
 			browser.wait(EC.visibilityOf(targetEleToWait), timeout).then(function(){
 				targetEleToClick.click();
+				logger.info("clicked the button successfully");
 			});	
 		}catch(err){
 			//console("Keywords Exception message: "+err.message);
@@ -82,8 +83,8 @@ var keywords = function(){
 			logger.info("Waiting for element");
 			var targetEleToWait = element(by.xpath(waitForObject));			
 			browser.wait(EC.visibilityOf(targetEleToWait), timeout).then(function(){
-				expect(targetEleToWait.getText()).toEqual('value');
-				logger.info("value matched");
+				expect(targetEleToWait.getText()).toEqual(value);
+				logger.info("Expected and Actual values matched");
 			});	
 		}catch(err){
 			//console("Keywords Exception message: "+err.message);
