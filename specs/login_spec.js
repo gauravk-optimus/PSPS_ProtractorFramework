@@ -12,7 +12,8 @@ describe('To test login', function() {
 	logger.info('Executing suite: To test login');
 	beforeEach(function(){	
 		logger.info('Navigating to URL');
-		browser.get('http://172.16.0.46/PSPSUIBuild/login');
+		browser.get('http://172.16.0.46/UIBuild/login');
+		browser.get('http://172.16.0.46/UIBuild/login');
 		browser.driver.manage().window().maximize();
 		browser.getCurrentUrl().then(function _logValue(url){
   		logger.info("Current url is " + url);

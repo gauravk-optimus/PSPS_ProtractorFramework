@@ -1,12 +1,12 @@
 var data = function(){
     var username;
-    this.username = 'SIMGROUP\\Optimus';
+    this.username = '';
     var password;
-    this.password = 'Newuser1';    	
+    this.password = '';    	
     var wrongPassword;
-    this.wrongPassword = 'Newuser2';    	
+    this.wrongPassword = '';    	
     var loggedInuser;
-    this.loggedInuser = 'OPTIMUS INFORMATION'; 
+    this.loggedInuser = ''; 
     var loginError;
     this.loginError = 'Please enter valid username and password!';     
 };
